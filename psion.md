@@ -1,4 +1,4 @@
-# Introduction
+# Introduction, yep
 Thank you for taking the time to look at this home-brew implementation of psionics for 5th edition.  The psion and adept classes inside use a form of psionic combat which was designed to be used in a world where psionics are ubiquitous, where virtually almost every intelligent creature has the ability to defend themselves psionically, and many also have methods to fight back or initiate psionic combat of their own.
 <p>With this document you will find the following:</p>
 
