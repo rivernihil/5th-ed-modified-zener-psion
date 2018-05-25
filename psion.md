@@ -1,9 +1,9 @@
 # Introduction
-Thank you for taking the time to look at this home-brew implementation of psionics for 5th edition.  The psion and adept classes inside use a form of psionic combat which was designed to be used in a world where psionics are ubiquitous, where virtually almost every intelligent creature has the ability to defend themselves psionically, and many also have methods to fight back or initiate psionic combat of their own.
+Thank you for taking the time to look at this home-brew implementation of psionics for 5th edition.  The psion and adept classes inside use a form of psionic combat which was designed to be used in a world where psionics are ubiquitous, where virtually every intelligent creature has the ability to defend themselves psionically, and many also have methods to fight back or initiate psionic combat of their own.
 <p>With this document you will find the following:</p>
 
  * The Psion: a ranged caster with many utility spells, similar in role to sorcerers, warlocks, or wizards
-   * The Clairsentient: a psion subclass can predict the future, and gain extra sensory information
+   * The Clairsentient: a psion subclass that can predict the future and gain extra sensory information
    * The Psychokineticist: a psion subclass that focuses on dealing ranged damage
    * The Telepath: a psion subclass focused on using powers that go directly mind to mind
  * The Adept: a light re-skin of the monk that uses PSI instead of KI, and gains some psionic powers like the psion
@@ -13,11 +13,11 @@ Thank you for taking the time to look at this home-brew implementation of psioni
  * Spell list and Spell conversions for psionic magic
  * A guide for alternatives to adapt the psion in a setting where psionics are not ubiquitous
 
-<p>Additionally, this document is intended to be distributed with another document that contains a chart to aid usage of psionic combat, and cards to print for psionic combat.  I recommend printing out the main chart and putting a copy somewhere central so that all players can easily view it.  As for the cards, I'd recommend printing one set for the DM and another set for any psions, with maybe an additional set floating around for people that have any psionic defenses.  It should be pretty easy to make the specific cards you need.  I personally slip the paper into a card protector that has another card already in there (poker or magic works well for this).  This gives it a nice solidity.  I'm loosely toying with the idea of having some sets printed up.
+<p>Additionally, this document is intended to be distributed with another document that contains a chart to aid usage of psionic combat and cards to print for psionic combat.  I recommend printing out the main chart and putting a copy somewhere central so that all players can easily view it.  As for the cards, I'd recommend printing one set for the DM and another set for any psions, with maybe an additional set floating around for people that have any psionic defenses.  It should be pretty easy to make the specific cards you need.  I personally slip the paper into a card protector that has another card already in there (poker or magic works well for this).  This gives it a nice solidity.  I'm loosely toying with the idea of having some sets printed up.
 
 #### Inspirations
 I was chiefly inspired by the second edition psionics, which I made use of quite a bit in my youth.  Recently I begun to desire running a campaign in the DarkSun setting, and psionics was the first thing that jumped out at me as a blocking issue.  The UA mystic class did not really fit my needs, although I do hope to see an updated version of it at some point.
-<p>Looking back on 2nd edition, one of the things that I loved most was the fiction of the different psionic attack and defense modes.  This love was further cemented by the excellent depictions of psionic combat in *The Verdant Passage*.  However, mechanically, those elements never really shined during play.  Furthermore, the psionicist class as a whole was generally overpowered, stronger than equivalent classes, while simultaneously containing lots of design traps.  Additionally, it also a pain in the butt to use and keep track of.  Luckily for the me, the excellent design of 5th edition has cleared things up a bit, and given me room to build the psionicist I always dreamed of.</p>
+<p>Looking back on 2nd edition, one of the things that I loved most was the fiction of the different psionic attack and defense modes.  This love was further cemented by the excellent depictions of psionic combat in *The Verdant Passage*.  However, mechanically, those elements never really shined during play.  Furthermore, the psionicist class as a whole was generally overpowered, stronger than equivalent classes, while simultaneously containing lots of design traps.  Additionally, it was a pain in the butt to use and keep track of.  Luckily for the me, the excellent design of 5th edition has cleared things up a bit and given me room to build the psionicist I always dreamed of.</p>
 <p>Over the years, I marinated on those combat modes, and dreamed of marrying them with Zener cards.  The result is in this document.  Gone is the separation between attack and defense and power scores.  The cards provide a simple, fun rock-paper-scissors style of combat that, with my additions, I feel meshes nicely with core 5th edition mechanics.  The prevalence of psionics in the DarkSun setting led me to design psionic combat in a way that is fundamental to the gameplay at the table, and hopefully others will find it useful.  However, I completely understand that some will find this approach too heavy handed for their own games.</p>
 <p>Additionally, I desired to clean up psionics a bit thematically.  The in-game fiction of psionics has drifted far from standard sci-fi and fantasy regarding psychic powers.  In my fiction, the things that can be accomplished by psionics is slightly more limited than what has been typical fare for D&D.</p>
 
@@ -26,9 +26,9 @@ I was chiefly inspired by the second edition psionics, which I made use of quite
 \page
 
 # The Psion
-Clad in a dark colored robe of the Tyrian bureaucracy, a bald and tattooed dwarf stares into the distance intently as he concentrates on the psionic defenses of King Kalak.  His psychic wards keep the king's most valuable treasures and secrets, hidden from those would otherwise wish to steal them and destroy his king.  The dwarf is paid well for expertise, and enjoys unheard of comfort, prestige, and security.  Still, the king knows that bought loyalty tends to have a short shelf-life, so he too keeps his mind's eye open, watching this one, and his other servants as well.
-<p>An attractive fire Genasi walks down the city streets, passing vendor stalls, sometimes with a smile or a brief word.  Few realize his charms aren't completely natural: he uses his telepathic skill to influence those around him, giving a nudge here, and a tweak there to charm his way through life.  If he was more careful, he'd never want for anything, but sooner or later he's bound to cross the path of an even more powerful telepath, one who won't take kindly to his intrusions.</p>
-<p>Unnatural wind and the pop and hiss of static electricity emanate from around a wild looking halfling, who floats down off a cliff while his hair blows wildly in the wind.  As explosions of psychokinetic energy go off, those below know that running is their only chance of survival, and if they scatter he might not be able to kill them all...</p>
+Clad in a dark colored robe of the Tyrian bureaucracy, a bald and tattooed dwarf stares into the distance intently as he concentrates on the psionic defenses of King Kalak.  His psychic wards keep the king's most valuable treasures and secrets hidden from those who would otherwise wish to steal them and destroy his king.  The dwarf is paid well for his expertise, and he enjoys unheard of comfort, prestige, and security.  Still, the king knows that bought loyalty tends to have a short shelf-life, so he too keeps his mind's eye open, watching this one and his other servants as well.
+<p>Genasi walks down the city streets passing vendor stalls, sometimes with a smile or a brief word.  Few realize his charms aren't completely natural; he uses his telepathic skill to influence those around him, giving a nudge here and a tweak there to charm his way through life.  If he was more careful, he'd never want for anything, but sooner or later he's bound to cross the path of an even more powerful telepath who won't take kindly to his intrusions.</p>
+<p>Unnatural wind and the pop and hiss of static electricity emanate from around a wild looking halfling as he floats down from a cliff with his hair blowing wildly in the wind.  As explosions of psychokinetic energy go off, those below know that running is their only chance of survival, and if they scatter he might not be able to kill them all...</p>
 <p>Psions are powerful individuals who have mastered the art of focusing the powers of their mind to shape reality.  While almost all beings on Athas possess some degree of psionic skill, not all have the talent or resources to dedicate their life to pursuing such skills.  Psions blast their foes with invisible forces, tear them to shreds, control the minds of others, cast their senses to far off places, and even glimpse into the otherwise unknowable future.</p>
 
 <div class='classTable wide'>
@@ -62,15 +62,15 @@ Clad in a dark colored robe of the Tyrian bureaucracy, a bald and tattooed dwarf
 \page
 
 ### The Power of the mind
-Psions use their natural talent to study and master psionics, the power of the mind.  For some rare savants, psionics comes naturally, as an extension of their very being.  But, for most, mastering the mind takes years of self-reflection, dedication, focus, and willpower.  Many psions seek to hone their talent to give them edge in surviving.  Some seek this power as it is one of the few opportunities for social-mobility that exists.  Others grow perversely attached to the power it presents to them, for indeed the power of the mind can be terrible to behold. Psions are one of two psionicist classes, the other being the adept who specializes in using their mind to control their body.
+Psions use their natural talent to study and master psionics, the power of the mind.  For some rare savants, psionics comes naturally as an extension of their very being.  But for most, mastering the mind takes years of self-reflection, dedication, focus, and willpower.  Many psions seek to hone their talent to give them an edge in survival.  Some seek this power because it is one of the few opportunities for social mobility that exist.  Others grow perversely attached to the power it presents to them, for indeed the power of the mind can be terrible to behold. Psions are one of two psionicist classes, the other being the adept who specializes in using their mind to control their body.
 
 ### The Will and the Way
-Psionics on Athas are ubiquitous.  The power of psionics is commonly referred to as "the Will", and the self-examination necessary to master the Will is known as "the Way".  Although almost every intelligent being has some small talent with the Will, few have the patience to master the Way.
-<p>In the harsh world of Athas, psionics allows those who would otherwise fail to survive to instead prosper.  Even the smallest halfling could contain enough power to destroy any foe, or allow a giant to communicate across the world.  Many nobles send their children to psionic academies, hoping that their scions will learn valuable skills which can help them maintain their precarious position in society.  Freeman too seek to send their gifted children to such academies, hoping that by doing so they can turn fortune in their favor, or at least ensure their children have lucrative work.  Street urchins find mentors, sometimes half-mad from their own studies, to teach them. Slaves teach each other tricks of the mind as a distraction, or to fulfill their wishes to escape.  No village or tribe can survive the wastes without a psionicist or two.  Although the skills of psionics are greatly aided by proper training, ultimately psionic power comes from an individuals directed effort to unlock their own mind, and not many have the willpower to persist in such endeavors.  Those who do could come from almost any background.</p>
+Psionics on Athas are ubiquitous.  The power of psionics is commonly referred to as "the Will," and the self-examination necessary to master the Will is known as "the Way."  Although almost every intelligent being has some small talent with the Will, few have the patience to master the Way.
+<p>In the harsh world of Athas, psionics allow those who would otherwise fail to survive to instead prosper.  Even the smallest halfling could contain enough power to destroy any foe or allow a giant to communicate across the world.  Many nobles send their children to psionic academies, hoping that their scions will learn valuable skills which can help them maintain their precarious positions in society.  Freeman too seek to send their gifted children to such academies, hoping that by doing so they can turn fortune in their favor or at least ensure their children have lucrative work.  Street urchins find mentors, sometimes half-mad from their own studies, to teach them. Slaves teach each other tricks of the mind as a distraction or to fulfill their wishes to escape.  No village or tribe can survive the wastes without a psionicist or two.  Although the skills of psionics are greatly aided by proper training, ultimately psionic power comes from an individual's directed effort to unlock their own mind, and not many have the willpower to persist in such endeavors.  Those who do could come from almost any background.</p>
 
 ### Creating A Psion
-The most important question to answer when creating a psion is how you attained your psychic powers.  Was it a natural talent, or years of study?  Did you attend a school, and if so, how was it paid for?  Perhaps you studied under a mentor, such as hermit, or a tribal elder.
-<p>Now that you have begun to finally master your psionic powers, what will you do with them?  Do you wish use your skill to gain fame and fortune, serving the lucrative merchant houses who are always looking out for skilled psions?  Or is the mastery of the mind a worthwhile pursuit in and of itself?  Maybe you have a score to settle with a school rival, perhaps a powerful noble family.  Perhaps the study of psionics comes so naturally to you that you cannot conceive of another path to follow.  You might decide that your powers give you easy access to things you want in life, and that psionic powers represent the natural order of life on Athas, where the strong dominate the weak.</p>
+The most important question to answer when creating a psion is how you attained your psychic powers.  Was it a natural talent or years of study?  Did you attend a school, and if so, how was it paid for?  Perhaps you studied under a mentor, such as a hermit or a tribal elder.
+<p>Now that you have begun to finally master your psionic powers, what will you do with them?  Do you wish to use your skill to gain fame and fortune, serving the lucrative merchant houses who are always looking out for skilled psions?  Is the mastery of the mind a worthwhile pursuit in and of itself?  Maybe you have a score to settle with a school rival or a powerful noble family.  Perhaps the study of psionics comes so naturally to you that you cannot conceive of another path to follow.  You might decide that your powers give you easy access to things you want in life and that psionic powers represent the natural order of life on Athas, where the strong dominate the weak.</p>
 
 ```
 ```
@@ -102,48 +102,48 @@ You start with the following equipment, in addition to the equipment granted by 
 * Leather armor, any simple weapon, and two daggers
 
 ### Spell Casting
-As a result of training with a mentor, attending a school, or through natural talent, you have the ability to cast psionic spells.  See the appropriate rules for casting spells in general, or your spell list at the end of the class description.
+As a result of training with a mentor, attending a school, or through natural talent, you have the ability to cast psionic spells.  See the appropriate rules for casting spells in general or your spell list at the end of the class description.
 
 #### Cantrips
-At 1st level, you know 4 cantrips, one of which must be *psychic probe* and the remaining three are your choice from the psion spell list.  You learn additional psion cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Psion table.
+At 1st level, you know 4 cantrips, one of which must be *psychic probe*. The remaining 3 are your choice from the psion spell list.  You learn additional psion cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Psion table.
 
 #### PSI Points
 The Psion table shows how many Psionic Points (PSI) you have available to cast your spells of 1st level or higher.  To cast one of these spells you must spend a number of PSI equal to the spell level of the spell being cast.  You regain all PSI when you finish a long rest.
 <p>Some spells allow you to spend a greater amount of points for an additional effect, but you cannot spend a number of points greater than your Max Spell Level on one spell.</p>
-<p>For example, if you know the 1st-level spell *magic missile*, have 3 PSI available, and your Max Spell Level is 2, you must spend 1 PSI to cast it, or you may instead spend 2 PSI to cast it for an additional effect, but you cannot yet spend all 3 PSI since your Max Spell Level is 2.</p>
+<p>For example, if you know the 1st-level spell *magic missile*, have 3 PSI available, and your Max Spell Level is 2, you must spend 1 PSI to cast it, or you may instead spend 2 PSI to cast it for an additional effect; however, you cannot yet spend all 3 PSI since your Max Spell Level is 2.</p>
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 1 | The Psion</div>
 \page
 
-#### Spells Known of 1st Level and Higher
+#### Spells Known at 1st Level and Higher
 You begin the game knowing 2 first level spells of your choice from the psion spell list.
 <p>The Spells Known column of the Psion table shows when you learn more psion spells of your choice.  Each of these spells must be of a level less than or equal to the number shown in the Max Spell Level column.  For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p>
 <p>Additionally, when you gain a level in this class, you can choose one of the psion spells you know and replace it with another spell from the psion spell list, which also must be a level less than or equal to your Max Spell Level.</p>
-<p>Although psions choose a discipline to focus on as their subclass options, they have access to the spell lists of all disciplines.</p>
+<p>Although psions choose a discipline to focus on as their subclass option, they have access to the spell lists of all disciplines.</p>
 
 #### Spellcasting Ability
-Charisma is your spellcasting ability for your psion spells, since the power of your mind is based your ability to understand the workings of your own mind, and focus your self-control and willpower.  You use your Wisdom whenever a spell refers to your spellcasting ability.  In addition, you use your Charisma modifier when setting the saving throw DC for a psion spell you cast and when making an attack roll with one.<br>
+Charisma is the spellcasting ability for your psion spells because your power is based on your ability to understand the workings of your own mind, as well as focusing your self-control and willpower.  You use your Wisdom whenever a spell refers to your spellcasting ability.  In addition, you use your Charisma modifier when setting the saving throw DC for a psion spell you cast and when making an attack roll with one.<br>
 <div align="center">**Spell save DC** = 8 + your proficiency bonus +<br>
 your Charisma modifier</div>
 <div align="center">**Spell attack modifier** = your proficiency bonus +<br>
 your Charisma modifier</div>
 
 #### Spellcasting Focus
-Psionic spells do not require the caster to use a spellcasting focus.  Additionally, Psionic spells do not require Verbal, Somatic, or Material components.  However, psions do tend to exhibit either a look of intense focus, or a look of eyes closed concentration when casting psionic spells, which may alert those around to the potential of a psionic spell being cast.
+Psionic spells do not require the caster to use a spellcasting focus.  Additionally, Psionic spells do not require Verbal, Somatic, or Material components.  However, psions do tend to exhibit either a look of intense focus or to close their eyes in concentration when casting psionic spells, which may alert those around to the potential of a psionic spell being cast.
 
 ### Psionic Recovery
-You have learned the ability to recover some of your psychic energy by meditating.  When you finish a short rest, you can recover PSI equal to your half of your Max Spell Level, minimum of 1 PSI.
+You have learned the ability to recover some of your psychic energy by meditating.  When you finish a short rest, you can recover PSI equal to half of your Max Spell Level, with a minimum of 1 PSI.
 <p>For example, if you're a 4th level psion and you take a short rest, you can recover 1 PSI.</p>
 
 ### Psionic Discipline
-When you reach 2nd level, choose a psionic discipline which describes the type of psionics which you desire to study or that you have a natural talent for: Clairsentience, Psychokinetics, or Telepathy, which are detailed at the end of the class description.  Your choice grants you features when you choose it at 2nd level, and again at 6th, 10th, and 14th level.
+When you reach 2nd level, choose a psionic discipline that reflects your natural talents or desired path of study.  Disciplines include Clairsentience, Psychokinetics, or Telepathy, which are detailed at the end of the class description.  Your choice grants you features when you choose it at 2nd level and again at 6th, 10th, and 14th level.
 
 ```
 ```
 
 ### Ability Score Improvement
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  As normal, you cannot increase an ability score above 20 using this feature.
+When you reach 4th, 8th, 12th, 16th, or 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  As normal, you cannot increase an ability score above 20 using this feature.
 
 ### Psionic Attunement
 At 18th level, you have achieved such mastery over certain spells that you can cast them at will.  Choose a 1st-level psion spell and a 2nd-level psion spell from among those you know.  You can cast those spells at their lowest level without expending PSI when you have them prepared.  If you want to cast either spell at a higher level, you must expend PSI as normal.
@@ -154,16 +154,16 @@ When you reach 20th level, you gain mastery over two powerful spells and can cas
 <p>If you want to cast either spell at a higher level, you must expend PSI as normal.</p>
 
 ## Psionic Disciplines
-According to some legends, psionics have been known on Athas since the first days of the world.  Whether or not this is true, the study of psionics is pervasive today.  There are two main categories of psionic traditions or sciences, those of the adept, focusing on the body, and those of the psion, focusing on the mind.
-<p>The science that the psions use fall into 3 disciplines: Clairsentience, Psychokinesis, and Telepathy.  These three represent natural divisions in the focus of the mind that have evolved over the millennia.  Individual schools often specialize in one discipline, but unless there are other schools in the same area, they often cannot afford to neglect the other disciplines.  Outside of the schools, powerful mentors tend to attract and teach students who follow the same discipline.  Even natural talents focus on one of these disciplines, as the division of the disciplines ultimately reflects the underlying natural contours of the mind.  However, true mastery of the mind involves learning aspects of all three disciplines, and some mental techniques are common to more than one discipline.</p>
+According to some legends, psionics have been known on Athas since the first days of the world.  Whether or not this is true, the study of psionics is pervasive today.  There are two main categories of psionic traditions or sciences: those of the adept, focusing on the body, and those of the psion, focusing on the mind.
+<p>The science that the psions use fall into three disciplines: Clairsentience, Psychokinesis, and Telepathy.  These three represent natural divisions in the focus of the mind that have evolved over the millennia.  Individual schools often specialize in one discipline, but unless there are other schools in the same area, they often cannot afford to neglect the other disciplines.  Outside of the schools, powerful mentors tend to attract and teach students who follow the same discipline.  Even natural talents focus on one of these disciplines, as the division of the disciplines ultimately reflects the underlying natural contours of the mind.  However, true mastery of the mind involves learning aspects of all three disciplines, and some mental techniques are common to more than one discipline.</p>
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 1 | The Psion</div>
 \page
 
 ### Clairsentience
-The psionic discipline of clairsentience entails using the power of the mind to gain knowledge that would otherwise be unavailable to an individual's senses.  This ability generally ranges from simple enhancements of the normal senses, to the ability to cast the mind outside of the body, and even the power to peer into the future.  Clairsentients are highly valued for their skills which can easily shifts the tides of fortunes in the favor of those they support.
-<p>Additionally, clairsentients gain knowledge of the weaknesses of the skills and techniques that clairsentients rely upon, and thus are often able to protect valuable secrets from prying minds.</p>
+The psionic discipline of clairsentience entails using the power of the mind to gain knowledge that would otherwise be unavailable to an individual's senses.  This ability generally ranges from simple enhancements of the normal senses, the ability to cast the mind outside of the body, and even the power to peer into the future.  Clairsentients are highly valued for their skills, which can easily shift the tides of fortune in the favor of those they support.
+<p>Additionally, clairsentients gain knowledge of the weaknesses of the skills and techniques that clairsentients rely upon, and they thus are often able to protect valuable secrets from prying minds.</p>
 
 #### Preternatural Insight
 Starting at 2nd level, you can glimpse into the near future and detect the psionic mode of your opposition during a psionic clash.  After losing a psionic clash, instead you can retroactively change your psionic mode to a different mode that you know.  You can use this ability once per short rest.
@@ -172,37 +172,37 @@ Starting at 2nd level, you can glimpse into the near future and detect the psion
 Beginning at 6th level, casting clairsentient spells comes so easily to you that it expends only a fraction of your psionic power.  After casting a spell in the clairsentience discipline, you regain 1 less PSI than the level of the spell cast, up to a maximum of 5.
 
 #### Precognition
-Starting at 10th level, you can spend your contact to turn any attack roll, ability check, or savings throw relating to that creature from a success to a failure, or vice versa.  You may use this ability once per short rest.
+Starting at 10th level, you can spend your contact to turn any attack roll, ability check, or savings throw relating to that creature from a success to a failure or vice versa.  You may use this ability once per short rest.
 
 #### Mind's Eye
-Starting at 14th level, you can use both Preternatural Insight and Precognition twice per short rest, instead of once.
+Starting at 14th level, you can use both Preternatural Insight and Precognition twice per short rest instead of once.
 
 ### Psychokinesis
-The least subtle of the psionic disciplines, psychokineticists use the power of their minds to directly create fields of force to move existing objects, attack their foes, and generate protective shields.  No Tyrant's army would be complete without a company of dedicated psychokineticists blasting apart their foes, and they are feared across the land for their awesome power.
+The least subtle of the psionic disciplines, psychokineticists use the power of their minds to directly create fields of force to move existing objects, attack their foes, and generate protective shields.  No tyrant's army would be complete without a company of dedicated psychokineticists blasting apart their foes, and they are feared across the land for their awesome power.
 
 #### Empowered Blasting
 Starting at 2nd level, when you cast *eldritch blast*, add your Charisma modifier to the damage it deals on a hit.
 
 #### Kinetic Shield
-Starting at 6th level, when you cast *shield* as a reaction, after gaining the +5 bonus for the triggering attack, you may dismiss the remaining duration to cause *shield* to additionally gain the effect of *eldritch blast* targeting the source of the original triggering attack.
+Starting at 6th level, when you cast *shield* as a reaction, after gaining the +5 bonus for the triggering attack, you may dismiss the remaining duration to cause *shield* to additionally gain the effect of *eldritch blast* and target the source of the original triggering attack.
 
 ```
 ```
 
 #### Burst of Willpower
-Starting at 10th level, you can spend your contact to cast *eldritch blast* on that creature as a bonus action.  Additionally, whenever you cast *eldritch blast* you may pay 1 PSI to enter into a psionic clash with one of its targets.
+Starting at 10th level, you can spend your contact to cast *eldritch blast* on that creature as a bonus action.  Additionally, whenever you cast *eldritch blast*, you may pay 1 PSI to enter into a psionic clash with one of its targets.
 
 #### Mind Over Matter
 Starting at 14th level, you gain the ability to cast or dismiss *levitation* as an action.  This version of *levitation* has no duration.
 
 ### Telepathy
-Perhaps the most iconic of the psionic disciplines is Telepathy.  Telepathy involves using one's mind to interface directly with that of another's.  This can be used for simple communication, but nearly everyone is afraid of the terrors of mind control.  Criminals often complain that they were under the effects of telepathic domination, but unless this can be proved, such claims are meaningless.  
+Perhaps the most iconic of the psionic disciplines is Telepathy.  Telepathy involves using one's mind to interface directly with that of another.  This can be used for simple communication, but nearly everyone is afraid of the terrors of mind control.  Criminals often complain that they were under the effects of telepathic domination, but unless this can be proved, such claims are meaningless.  
 
 #### Telepathic Field
 Starting at 2nd level, when an ally within 60' of you enters into a psionic clash, you may use your reaction to take their place instead.
 
 #### Split Brain
-Starting a 6th level, when you cast *psionic probe*, you may target an additional creature.  At 10th level you may target 3 creatures, and at 14th level you may target 4 creatures.
+Starting at 6th level, when you cast *psionic probe*, you may target an additional creature.  At 10th level, you may target 3 creatures, and at 14th level, you may target 4 creatures.
 
 #### Native Telepath
 Starting at 6th level, you can communicate telepathically with any creature you can see or any willing creature you are aware of as long as you are on the same plane of existence.  You don't need to share a language with that creature, but it must be able to understand at least one language.
@@ -211,7 +211,7 @@ Starting at 6th level, you can communicate telepathically with any creature you 
 Starting at 10th level, when you use a telepathic spell on a creature, you may spend the contact to prevent them from remembering anything from the initiation of contact until the spell ends.  While spellbound, if significant changes in their environment occur, they may realize that they have been charmed when the spell ends, and depending on the events leading up to the point of contact they may be able to surmise who was responsible, but they will otherwise have no direct memory of their time spent under the effects of the spell.
 
 #### Telepathic Dominion
-Starting at 14th level, as a bonus action, you can spend your contact to attempt to dominate that creature without paying any additional PSI.  That creature makes a Wisdom savings throw, and if it fails it is charmed by you and must follow your commands for up to 10 minutes, or as long as you maintain concentration on this effect.  It makes additional Wisdom saving throws whenever it takes damage, and otherwise this effect behaves like the appropriate *dominate beast/monster/person* spell.  You may use this ability once per short rest.
+Starting at 14th level, as a bonus action, you can spend your contact to attempt to dominate that creature without paying any additional PSI.  That creature makes a Wisdom savings throw, and if it fails, it is charmed by you and must follow your commands for up to 10 minutes or as long as you maintain concentration on this effect.  It makes additional Wisdom saving throws whenever it takes damage, and otherwise this effect behaves like the appropriate *dominate beast/monster/person* spell.  You may use this ability once per short rest.
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 1 | The Psion</div>
