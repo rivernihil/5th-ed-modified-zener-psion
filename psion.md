@@ -218,11 +218,13 @@ Starting at 14th level, as a bonus action, you can spend your contact to attempt
 \page
 
 # Adept
-Three descriptions here.
-
+Mul Way of Open Hand.
+<p>Way of Shadow</p>
+<p>Way of Long Death</p>
 ### Note: Adapting the adept
-The Adept is a very light modification of the monk class.  Primarily this modification takes simply alters some of the fictional aspects of the monk.  Many of the changes are simply changes to the name of one ability or another.  Some changes involve swapping out spells of equal level with those that fill a similar role from the Psion spell list.  One substantial change I made to the class involves giving them increased to psionic modes compared to other non-psionic classes.  Additionally I added one psionic cantrip (*psychic probe*) to their abilities, which I feel does not alter their abilities noticeably.
-<p>The existing monk class in 5th edition derives most of its fictional power from enhanced focus and training that is, generally speaking, not incompatible with the fiction of psionics.  One major exception to this exists which is the monk subclass Way of the Four Elements.  Based on my conception of psionics, elemental style magic is strictly off limits.  This shouldn't be too big of a deal since the Four Elements subclass is generally considered sub-par.
+The Adept presented here is quite different from the Psion above.  As opposed to being a completely new class (with a new combat system), the Adept is primarily a mild re-skin of the standard monk class.  The monk as presented in 5th edition has powers that are essentially psionic in nature as well as psionic fictionally.  Given that, a few modifications were made to allow them to integrate into model of psionics above.
+<p>Described below are the modifications to the original monk class, as well as a few notes on re-theming existing monk features.  A few of the subclasses are missing altogether as they do not fit fictionally with a monk powered by psionics.  The Way of the Four Elements, besides being generally thought of as poorly balanced, does not fit the psionic theme of the Adept, and any attempt to alter it would destroy its primary attraction.  It would almost be easier to make an entirely new subclass that had a skill menu.  The Way of the Sun Soul could probably be made useable, but it requires heavy modification to bring it in line.  The Way of Tranquility might fit within the theme of psionics presented here, but it does not thematically in my DarkSun campaign, so I have chosen not to adapt it.</p>
+<p>I have configured my adept to use charisma (similar to the psion's spellcasting abilities), and constituion (representing their control over their body).</p>
 
 ### Body and Mind
 Some descriptions here.
@@ -262,20 +264,30 @@ Some descriptions here.
 ### Quick Build
 Some descriptions here.
 
-### PSI Blades
-As *Martial Arts* in PHB.
+### Class Features
 
-### Native Telepath
-Starting at 13th level, you can communicate telepathically with any creature you can see or any willing creature you are aware of as long as you are on the same plane of existence.  You don't need to share a language with that creature, but it must be able to understand at least one language.
+### Equipment
+
+### Unarmored Defense
+Adepts use a variety of techniques to increase their agility and resilience while fighting.  It could be a metabolic burst of energy, a psychokinetic burst to deflect an attack, or using the adepts control over their body to temporarily increase the stiffness or regeneration of the skin.  This ability uses Dexterity and Constitution.
+
+### PSI Blades
+Renamed from *Martial Arts* in PHB.  PSI Blades allow the adept to create psychokinetic blades to enhance their hand-to-hand and melee skills.  The adept may select from their Constitution aside from Strength and Dexterity.
 
 ### PSI Points
-As *Ki* in PHB.
+Renamed from *Ki* in PHB.
 
 ### Psychic Probe
 You know and may cast the *psychic probe* cantrip.
 
+\page
+
+### Native Telepath
+Renamed from *Tongue of the Sun and Moon* for fictional purposes.  The effect was also changed slightly to match the fiction of telepathic communication presented in the rest of this document.
+<p>Starting at 13th level, you can communicate telepathically with any creature you can see or any willing creature you are aware of as long as you are on the same plane of existence.  You don't need to share a language with that creature, but it must be able to understand at least one language.</p>
+
 ### Harmonic Essence
-As *Diamond Soul* in the PHB.
+Renamed from *Diamond Soul* in the PHB.
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 2 | The Adept</div>
@@ -284,8 +296,7 @@ As *Diamond Soul* in the PHB.
 ## Adept Tradition
 
 ### Way of the Open Hand
-As PHB.
-
+This particular subclass really needs no adaptations to survive.  
 ### Way of the Chameleon
 Something...
 
