@@ -217,18 +217,6 @@ Starting at 14th level, as a bonus action, you can spend your contact to attempt
 <div class='footnote'>Chapter 1 | The Psion</div>
 \page
 
-# Adept
-Mul Way of Open Hand.
-<p>Way of Shadow</p>
-<p>Way of Long Death</p>
-### Note: Adapting the adept
-The Adept presented here is quite different from the Psion above.  As opposed to being a completely new class (with a new combat system), the Adept is primarily a mild re-skin of the standard monk class.  The monk as presented in 5th edition has powers that are essentially psionic in nature as well as psionic fictionally.  Given that, a few modifications were made to allow them to integrate into model of psionics above.
-<p>Described below are the modifications to the original monk class, as well as a few notes on re-theming existing monk features.  A few of the subclasses are missing altogether as they do not fit fictionally with a monk powered by psionics.  The Way of the Four Elements, besides being generally thought of as poorly balanced, does not fit the psionic theme of the Adept, and any attempt to alter it would destroy its primary attraction.  It would almost be easier to make an entirely new subclass that had a skill menu.  The Way of the Sun Soul could probably be made useable, but it requires heavy modification to bring it in line.  The Way of Tranquility might fit within the theme of psionics presented here, but it does not thematically in my DarkSun campaign, so I have chosen not to adapt it.</p>
-<p>I have configured my adept to use charisma (similar to the psion's spellcasting abilities), and constituion (representing their control over their body).</p>
-
-### Body and Mind
-Some descriptions here.
-
 <div class='classTable wide'>
 ##### The Adept
 | Level | Proficiency Bonus | PSI Blades | PSI Points | Psionic Modes | Features |
@@ -255,18 +243,43 @@ Some descriptions here.
 | 20th  | +6 | 1d10 | 20 | 5 | Perfect Self                                      |
 </div>
 
+# Adept
+After years of training and sparring, a Half-Giant adept prepares to leave her school.  Her body has become a pure extension of her will, and she is an expert warrior.  With equipment scarcely more than a light robe, she begins a short trek across the desert to the nearest city, Balic.  She is more than capable of getting through any obstacle.
+<p>Unseen, a shadowy half-elf stalks through a luxurious mansion.  He is a member of a dark, underground soceity who trains in arts considered by most taboo.  His cabal makes thrives by providing services that few others are capable of.  Although life is cheap on Athas, death is not.</p>
+<p>In the boulder fields, a small group of escaped slaves skirmishes with a B'rohg.  A Thri-kreen adept deftly jumps over boulders, skirts in and out of the reach of his four long arms, and quickly rushes through his legs to deliver a final blow to defeat their foe.  He and his companions are safe, for now.</p>
+
+```
+```
+
+### Note: Adapting the adept
+The Adept presented here is quite different from the Psion above.  As opposed to being a completely new class (with a new combat system), the Adept is primarily a mild re-skin of the standard monk class.  The monk as presented in 5th edition has powers that are essentially psionic in nature as well as psionic fictionally.  Given that, a few modifications were made to allow them to integrate into model of psionics above.
+
+<p>The adept described below uses charisma (similar to the psion's spellcasting abilities), and constitution (representing their control over their body) instead of the wisdom and dexterity common to the monk.</p>
+
+<div class='pageNumber auto'></div>
+<div class='footnote'>Chapter 2 | The Adept</div>
+\page 
+
+<p>Described below are the modifications to the original monk class, as well as a few notes on re-theming existing monk features.  A few of the subclasses are missing altogether as they do not fit fictionally with a monk powered by psionics.  The Way of the Four Elements, besides being generally thought of as poorly balanced, does not fit the psionic theme of the Adept, and any attempt to alter it would destroy its primary attraction.  It would almost be easier to make an entirely new subclass that had a skill menu.  The Way of the Sun Soul could probably be made useable, but it still requires more modification than just swapping the names around, so I have not adapated it for the time being.  The Way of Tranquility might fit within the theme of psionics presented here, but it does not thematically in my DarkSun campaign, so I have chosen not to adapt it.</p>
+
+### Body and Mind
+Adepts of Athas spend years meditating and exercising.  During this time, they utilize their natural psionic abilities to gain mastery over their biology.  Through the training of the adepts, many impressive feats are possible, such as temporarily enhanced strength, faster movement, hardened skin, or more.  Although focused heavily on feats of physique, they also have no less a capable mind.
+
 ### Training and Asceticism
-Some descriptions here.
+Adepts train for years under the guidance of a master.  These "schools" teach a variety of different techniques, passed down from master to student, and as those students grow not only under the guidance of their master but in their own rights, they may continue the lineage of their master, or start a new school of their own (if they desire to take on students at all).  Some of their practices involve enduring extreme conditions in order to unlock the powers of the mind.
 
 ### Creating an Adept
-Some descriptions here.
+One of the biggest questions to answer when creating an adept is to figure out why you are adventuring.  Many adepts roam Athas looking for tests of skill to prove their own mastery.  Others seek hidden knowledge to let them perfect a powerful technique.  Some, turned out by their school, seek adventure as simply a means to survival, or to gather enough wealth to oneday found their own school.  Others have important missions entrusted to them by their school, or from other sources, and they use their powers to accomplish some ends.
+<p>Another thing to think about when creating your adept is what was your school like.  Was it a lone master, helping you find time to train in private training halls, individuals' houses, or even the back alleys?  Was it a formal chartered institution near one of the major cities?  Perhaps it was a secretive recluse who trained her students, seeking revenge on one of her peers.</p>
 
 ### Quick Build
-Some descriptions here.
+You can make an adept quickly by following these suggestions.  First, Constitution should be your highest ability score, followed by Charisma.  Second, choose the hermit background.
 
-### Class Features
+```
+```
 
-### Equipment
+## Class Features
+As the PHB Monk, unless otherwise noted.  Swap usages of dexterity for constitution generally, and wisdom for charisma.
 
 ### Unarmored Defense
 Adepts use a variety of techniques to increase their agility and resilience while fighting.  It could be a metabolic burst of energy, a psychokinetic burst to deflect an attack, or using the adepts control over their body to temporarily increase the stiffness or regeneration of the skin.  This ability uses Dexterity and Constitution.
@@ -275,12 +288,10 @@ Adepts use a variety of techniques to increase their agility and resilience whil
 Renamed from *Martial Arts* in PHB.  PSI Blades allow the adept to create psychokinetic blades to enhance their hand-to-hand and melee skills.  The adept may select from their Constitution aside from Strength and Dexterity.
 
 ### PSI Points
-Renamed from *Ki* in PHB.
+Renamed from *Ki* in PHB.  Use Charisma modifier instead of Wisdom for PSI save DC
 
 ### Psychic Probe
-You know and may cast the *psychic probe* cantrip.
-
-\page
+In addition to the number of psionic modes known listed in the adept table, you know and may cast the *psychic probe* cantrip.
 
 ### Native Telepath
 Renamed from *Tongue of the Sun and Moon* for fictional purposes.  The effect was also changed slightly to match the fiction of telepathic communication presented in the rest of this document.
@@ -289,16 +300,54 @@ Renamed from *Tongue of the Sun and Moon* for fictional purposes.  The effect wa
 ### Harmonic Essence
 Renamed from *Diamond Soul* in the PHB.
 
+## Adept Tradition
+The following are loose notes on how to re-theme the monk's subclasses.
+
+### Way of the Open Hand
+This particular subclass really needs no adaptations to survive.  *Wholeness of Body* allows regeneration in accordance with psychometabolic fiction.  *Tranquility* is a slight stretch fictionally, but not completely out of bounds.
+
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 2 | The Adept</div>
 \page
 
-## Adept Tradition
+### Way of Shadow
+This subclass stretches the fiction of psionics a bit, but I am content to leave it as in lieu of adapting it at this time, since it seems like an otherwise fun and useful subclass.  I may one day provide a suitable alternative, but for now follow the notes below.
 
-### Way of the Open Hand
-This particular subclass really needs no adaptations to survive.  
-### Way of the Chameleon
-Something...
+#### Shadow Arts
+Instead of *darkness*, and *silence*, the adept should learn *blindness/deafness* and *hold person*.  Instead of the *minor illusion* cantrip, they should learn *mage hand*.
+
+#### Shadow Step
+I don't care for the explicit reliance upon shadow, and would consider replacing the effect with that of *misty step*.  The adept can use a combination of speed, distraction, illusory body doubles, and chameleonic skin to achieve such speed.
+
+#### Cloak of Shadows
+Invisibility cannot be acheived telepathically, since it would involve affecting the minds of too many entities at once.  Shadow based invisibility could be achieved by turning the skin and eye pigments black, and possibly using some psychokinetic effect to distort or deflect incoming light.  Due to the limitations on being in shadow, this makes the effect presented actually work out ok, if not great.
+
+### Way of the Long Death
+The specific relation to undeath is sort of unrelated, although not strictly required either.  At any rate there's nothing really preventing an individual with psionic powers from studying the undead, but no real synergy either.  However, the study of life, and the process of dying would be of great use to someone with psychometabolic powers.
+
+#### Touch of Death
+This power could easily be learned by mimicking some of the blood/moisture draining animals and plants that are not too rarely found in Athas.
+
+#### Hour of Reaping
+Fairly standard telepathic effect.
+
+#### Mastery of Death
+The result of clairsentient powers.
+
+#### Touch of Long Death
+The necrotic energy could be the result of a powerful negative biofeedback loop generated in the target.  Alternatively the energy type could be changed to force or psychic for a more psychokinetic or telepathic touch.
+
+### Way of the Drunken Master
+All the effects badly need a re-theme, but are mechanically inline with the fiction of the adept.  I'd probably drop the Performance proficiency, as it seems out of place here, and instead provide athletics or acrobatics.  Since those skills would generally be more useful anyways, the loss of the brewer's tools won't be noticed.
+
+```
+```
+
+### Way of the Kensei
+Basically an adept who focuses on their weapon, and instills psionic forces to it as per standard *PSI blades*. 
+
+#### Way of the Brush
+This doesn't really fit thematically as writing is extremely uncommon on Athas.  I'm not sure this really needs to be replaced with anything, and if so if there's anything particularly appropriate.
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 2 | The Adept</div>
