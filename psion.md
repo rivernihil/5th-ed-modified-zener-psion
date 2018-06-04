@@ -555,7 +555,7 @@ Something here.
  - T - Dissonant Whispers
  - P - Featherfall
  - P - Floating Disk
- - T - Heroism
+ - t - Heroism
  - T - Hideous Laughter
  - C - Identify
  - P - Jump
@@ -593,7 +593,7 @@ Something here.
  - T - Fear
  - P - Fly
  - C - Nondetection
- - T - Sending
+ - t - Sending
  - P - Wind Wall
  
 ##### 4th Level
@@ -617,7 +617,7 @@ Something here.
  - P - Hold Monster
  - C - Legend Lore
  - T - Modify Memory
- - T - Rary's Telepathic Bond
+ - t - Rary's Telepathic Bond
  - C - Scrying
  - T - Synaptic Static (Spell version from Xanathar's)
  - P - Telekenesis
@@ -629,7 +629,7 @@ Something here.
  - C - Find the Path
  - P - Globe of Invulnerability
  - T - Mass Suggestion
- - T - Otto's Irresistible Dance
+ - t - Otto's Irresistible Dance
  - C - True Seeing
 
 ##### 7th Level
@@ -642,12 +642,12 @@ Something here.
  - T - Dominate Monster
  - T - Feeblemind
  - C - Mind Blank
- - T - Power Word Stun
- - T - Telepathy
+ - t - Power Word Stun
+ - t - Telepathy
 
 ##### 9th Level 
  - C - Foresight
- - T - Power Word Kill
+ - t - Power Word Kill
  - T - Psychic Scream
  - T - Weird
 </div>
