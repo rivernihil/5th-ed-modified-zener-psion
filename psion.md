@@ -6,16 +6,19 @@ Thank you for taking the time to look at this home-brew implementation of psioni
    * The Clairsentient: a psion subclass that can predict the future and gain extra sensory information
    * The Psychokineticist: a psion subclass that focuses on dealing ranged damage
    * The Telepath: a psion subclass focused on using powers that go directly mind to mind
- * The Adept: a light re-skin of the monk that uses PSI instead of KI, and gains some psionic powers like the psion
-   * ???: a re-skinned Way of the Shadow subclass for usage with the adept
+ * The Adept: a light re-skin of the monk that uses PSI instead of KI, and gains some minor psionic powers
+   * additional notes for adapting the monk's subclasses
  * Rules for psionic combat
  * A psionic skill, similar to arcana or religion
  * Spell list and Spell conversions for psionic magic
  * A guide for alternatives to adapt the psion in a setting where psionics are not ubiquitous
 
-<p>Additionally, this document is intended to be distributed with another document that contains a chart to aid usage of psionic combat and cards to print for psionic combat.  I recommend printing out the main chart and putting a copy somewhere central so that all players can easily view it.  As for the cards, I'd recommend printing one set for the DM and another set for any psions, with maybe an additional set floating around for people that have any psionic defenses.  It should be pretty easy to make the specific cards you need.  I personally slip the paper into a card protector that has another card already in there (poker or magic works well for this).  This gives it a nice solidity.  I'm loosely toying with the idea of having some sets printed up.
+### Using the supplements
 
-#### Inspirations
+<p>Additionally, this document is intended to be distributed with another document that contains a chart to aid usage of psionic combat and cards to print for psionic combat.  I recommend printing out the main chart and putting a copy somewhere central so that all players can easily view it.  As for the cards, I'd recommend printing one set for the DM and another set for any psions, with maybe an additional set floating around for people that have any psionic defenses.  It should be pretty easy to make the specific cards you need.  I personally slip the paper into a card protector that has another card already in there (poker or magic works well for this).  This gives it a nice solidity.  I'm loosely toying with the idea of having some sets printed up.</p>
+
+### Inspirations
+
 I was chiefly inspired by the second edition psionics, which I made use of quite a bit in my youth.  Recently I begun to desire running a campaign in the DarkSun setting, and psionics was the first thing that jumped out at me as a blocking issue.  The UA mystic class did not really fit my needs, although I do hope to see an updated version of it at some point.
 <p>Looking back on 2nd edition, one of the things that I loved most was the fiction of the different psionic attack and defense modes.  This love was further cemented by the excellent depictions of psionic combat in *The Verdant Passage*.  However, mechanically, those elements never really shined during play.  Furthermore, the psionicist class as a whole was generally overpowered, stronger than equivalent classes, while simultaneously containing lots of design traps.  Additionally, it was a pain in the butt to use and keep track of.  Luckily for the me, the excellent design of 5th edition has cleared things up a bit and given me room to build the psionicist I always dreamed of.</p>
 <p>Over the years, I marinated on those combat modes, and dreamed of marrying them with Zener cards.  The result is in this document.  Gone is the separation between attack and defense and power scores.  The cards provide a simple, fun rock-paper-scissors style of combat that, with my additions, I feel meshes nicely with core 5th edition mechanics.  The prevalence of psionics in the DarkSun setting led me to design psionic combat in a way that is fundamental to the gameplay at the table, and hopefully others will find it useful.  However, I completely understand that some will find this approach too heavy handed for their own games.</p>
@@ -35,26 +38,26 @@ Clad in a dark colored robe of the Tyrian bureaucracy, a bald and tattooed dwarf
 ##### The Psion
 | Level | Proficiency Bonus | Psionic Points (PSI) | Psionic Modes | Features | Cantrips Known | Spells Known | Max Spell Level |
 |:-----:|:--:|:---:|:-:|:------------------------------------------------|:--:|:--:|:--:|
-| 1st   | +2 | 2   | 2 | Spell Casting, Psionic Recovery                 | 4  | 2  | 1  |
-| 2nd   | +2 | 4   | 3 | Psionic Discipline                              | 4  | 3  | 1  |
-| 3rd   | +2 | 9   | 3 | —                                               | 4  | 4  | 2  |
-| 4th   | +2 | 11  | 3 | Ability Score Improvement                       | 5  | 5  | 2  |
-| 5th   | +3 | 17  | 3 | —                                               | 5  | 6  | 3  |
-| 6th   | +3 | 21  | 4 | Psionic Discipline feature                      | 5  | 7  | 3  |
-| 7th   | +3 | 25  | 4 | —                                               | 5  | 8  | 4  |
-| 8th   | +3 | 29  | 4 | Ability Score Improvement                       | 5  | 9  | 4  |
-| 9th   | +4 | 38  | 4 | —                                               | 5  | 10 | 5  |
-| 10th  | +4 | 44  | 4 | Psionic Discipline feature                      | 6  | 11 | 5  |
-| 11th  | +4 | 49  | 5 | —                                               | 6  | 12 | 6  |
-| 12th  | +4 | 50  | 5 | Ability Score Improvement                       | 6  | 12 | 6  |
-| 13th  | +5 | 57  | 5 | —                                               | 6  | 13 | 7  |
-| 14th  | +5 | 58  | 5 | Psionic Discipline feature                      | 6  | 13 | 7  |
-| 15th  | +5 | 65  | 5 | —                                               | 6  | 14 | 8  |
-| 16th  | +5 | 66  | 6 | Ability Score Improvement                       | 6  | 14 | 8  |
-| 17th  | +6 | 75  | 6 | —                                               | 6  | 15 | 9  |
-| 18th  | +6 | 80  | 6 | Psionic Attunement                              | 6  | 15 | 9  |
-| 19th  | +6 | 87  | 6 | Ability Score Improvement                       | 6  | 15 | 9  |
-| 20th  | +6 | 95  | 7 | Mental Mastery                                  | 6  | 15 | 9  |
+| 1st   | +2 | 2   | +0 | Spell Casting, Psionic Recovery                 | 4  | 2  | 1  |
+| 2nd   | +2 | 4   | +1 | Psionic Discipline                              | 4  | 3  | 1  |
+| 3rd   | +2 | 9   | +1 | —                                               | 4  | 4  | 2  |
+| 4th   | +2 | 11  | +1 | Ability Score Improvement                       | 5  | 5  | 2  |
+| 5th   | +3 | 17  | +1 | —                                               | 5  | 6  | 3  |
+| 6th   | +3 | 21  | +2 | Psionic Discipline feature                      | 5  | 7  | 3  |
+| 7th   | +3 | 25  | +2 | —                                               | 5  | 8  | 4  |
+| 8th   | +3 | 29  | +2 | Ability Score Improvement                       | 5  | 9  | 4  |
+| 9th   | +4 | 38  | +2 | —                                               | 5  | 10 | 5  |
+| 10th  | +4 | 44  | +2 | Psionic Discipline feature                      | 6  | 11 | 5  |
+| 11th  | +4 | 49  | +3 | —                                               | 6  | 12 | 6  |
+| 12th  | +4 | 50  | +3 | Ability Score Improvement                       | 6  | 12 | 6  |
+| 13th  | +5 | 57  | +3 | —                                               | 6  | 13 | 7  |
+| 14th  | +5 | 58  | +3 | Psionic Discipline feature                      | 6  | 13 | 7  |
+| 15th  | +5 | 65  | +3 | —                                               | 6  | 14 | 8  |
+| 16th  | +5 | 66  | +4 | Ability Score Improvement                       | 6  | 14 | 8  |
+| 17th  | +6 | 75  | +4 | —                                               | 6  | 15 | 9  |
+| 18th  | +6 | 80  | +4 | Psionic Attunement                              | 6  | 15 | 9  |
+| 19th  | +6 | 87  | +4 | Ability Score Improvement                       | 6  | 15 | 9  |
+| 20th  | +6 | 95  | +5 | Mental Mastery                                  | 6  | 15 | 9  |
 </div>
 
 <div class='pageNumber auto'></div>
@@ -76,7 +79,7 @@ The most important question to answer when creating a psion is how you attained 
 ```
 
 ### Quick Build
-You can make a psion quickly by following these suggestions.  First, Charisma should be your highest ability score, followed by Wisdom.  Second, choose any background.  Third, choose the following cantrips (in addition to the required *psychic probe*): *eldritch blast*, *mage hand*, and *friends*, along with the 1st-level spells *charm person* and *shield*.
+You can make a psion quickly by following these suggestions.  First, Charisma should be your highest ability score, followed by Wisdom.  Second, choose any background.  Third, choose *iron will* and *kinetic burst* as your known psionic modes.  Finally, choose the following cantrips (in addition to the required *psychic probe*): *eldritch blast*, *mage hand*, and *friends*, along with the 1st-level spells *charm person* and *shield*.
 
 ## Class Features
 As a psion, you gain the following class features.
@@ -107,14 +110,17 @@ As a result of training with a mentor, attending a school, or through natural ta
 #### Cantrips
 At 1st level, you know 4 cantrips, one of which must be *psychic probe*. The remaining 3 are your choice from the psion spell list.  You learn additional psion cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Psion table.
 
+<div class='pageNumber auto'></div>
+<div class='footnote'>Chapter 1 | The Psion</div>
+\page
+
 #### PSI Points
 The Psion table shows how many Psionic Points (PSI) you have available to cast your spells of 1st level or higher.  To cast one of these spells you must spend a number of PSI equal to the spell level of the spell being cast.  You regain all PSI when you finish a long rest.
 <p>Some spells allow you to spend a greater amount of points for an additional effect, but you cannot spend a number of points greater than your Max Spell Level on one spell.</p>
 <p>For example, if you know the 1st-level spell *magic missile*, have 3 PSI available, and your Max Spell Level is 2, you must spend 1 PSI to cast it, or you may instead spend 2 PSI to cast it for an additional effect; however, you cannot yet spend all 3 PSI since your Max Spell Level is 2.</p>
 
-<div class='pageNumber auto'></div>
-<div class='footnote'>Chapter 1 | The Psion</div>
-\page
+#### Psionic Modes
+The number of additional Psionic Modes known above the base known by all (2).  When you create a 1st-level psion, you choose your known psionic modes instead of picking them randomly.
 
 #### Spells Known at 1st Level and Higher
 You begin the game knowing 2 first level spells of your choice from the psion spell list.
@@ -132,15 +138,15 @@ your Charisma modifier</div>
 #### Spellcasting Focus
 Psionic spells do not require the caster to use a spellcasting focus.  Additionally, Psionic spells do not require Verbal, Somatic, or Material components.  However, psions do tend to exhibit either a look of intense focus or to close their eyes in concentration when casting psionic spells, which may alert those around to the potential of a psionic spell being cast.
 
+```
+```
+
 ### Psionic Recovery
 You have learned the ability to recover some of your psychic energy by meditating.  When you finish a short rest, you can recover PSI equal to half of your Max Spell Level, with a minimum of 1 PSI.
 <p>For example, if you're a 4th level psion and you take a short rest, you can recover 1 PSI.</p>
 
 ### Psionic Discipline
 When you reach 2nd level, choose a psionic discipline that reflects your natural talents or desired path of study.  Disciplines include Clairsentience, Psychokinetics, or Telepathy, which are detailed at the end of the class description.  Your choice grants you features when you choose it at 2nd level and again at 6th, 10th, and 14th level.
-
-```
-```
 
 ### Ability Score Improvement
 When you reach 4th, 8th, 12th, 16th, or 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  As normal, you cannot increase an ability score above 20 using this feature.
@@ -153,13 +159,13 @@ At 18th level, you have achieved such mastery over certain spells that you can c
 When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort.  Choose two 3rd-level psion spells from among those you know as your mastered spells.  You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at their lowest level without expending PSI.  When you do so, you can't do so again until you finish a short rest.
 <p>If you want to cast either spell at a higher level, you must expend PSI as normal.</p>
 
-## Psionic Disciplines
-According to some legends, psionics have been known on Athas since the first days of the world.  Whether or not this is true, the study of psionics is pervasive today.  There are two main categories of psionic traditions or sciences: those of the adept, focusing on the body, and those of the psion, focusing on the mind.
-<p>The science that the psions use fall into three disciplines: Clairsentience, Psychokinesis, and Telepathy.  These three represent natural divisions in the focus of the mind that have evolved over the millennia.  Individual schools often specialize in one discipline, but unless there are other schools in the same area, they often cannot afford to neglect the other disciplines.  Outside of the schools, powerful mentors tend to attract and teach students who follow the same discipline.  Even natural talents focus on one of these disciplines, as the division of the disciplines ultimately reflects the underlying natural contours of the mind.  However, true mastery of the mind involves learning aspects of all three disciplines, and some mental techniques are common to more than one discipline.</p>
-
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 1 | The Psion</div>
 \page
+
+## Psionic Disciplines
+According to some legends, psionics have been known on Athas since the first days of the world.  Whether or not this is true, the study of psionics is pervasive today.  There are two main categories of psionic traditions or sciences: those of the adept, focusing on the body, and those of the psion, focusing on the mind.
+<p>The science that the psions use fall into three disciplines: Clairsentience, Psychokinesis, and Telepathy.  These three represent natural divisions in the focus of the mind that have evolved over the millennia.  Individual schools often specialize in one discipline, but unless there are other schools in the same area, they often cannot afford to neglect the other disciplines.  Outside of the schools, powerful mentors tend to attract and teach students who follow the same discipline.  Even natural talents focus on one of these disciplines, as the division of the disciplines ultimately reflects the underlying natural contours of the mind.  However, true mastery of the mind involves learning aspects of all three disciplines, and some mental techniques are common to more than one discipline.</p>
 
 ### Clairsentience
 The psionic discipline of clairsentience entails using the power of the mind to gain knowledge that would otherwise be unavailable to an individual's senses.  This ability generally ranges from simple enhancements of the normal senses, the ability to cast the mind outside of the body, and even the power to peer into the future.  Clairsentients are highly valued for their skills, which can easily shift the tides of fortune in the favor of those they support.
@@ -177,6 +183,9 @@ Starting at 10th level, you can spend your contact to turn any attack roll, abil
 #### Mind's Eye
 Starting at 14th level, you can use both Preternatural Insight and Precognition twice per short rest instead of once.
 
+```
+```
+
 ### Psychokinesis
 The least subtle of the psionic disciplines, psychokineticists use the power of their minds to directly create fields of force to move existing objects, attack their foes, and generate protective shields.  No tyrant's army would be complete without a company of dedicated psychokineticists blasting apart their foes, and they are feared across the land for their awesome power.
 
@@ -185,9 +194,6 @@ Starting at 2nd level, when you cast *eldritch blast*, add your Charisma modifie
 
 #### Kinetic Shield
 Starting at 6th level, when you cast *shield* as a reaction, after gaining the +5 bonus for the triggering attack, you may dismiss the remaining duration to cause *shield* to additionally gain the effect of *eldritch blast* and target the source of the original triggering attack.
-
-```
-```
 
 #### Burst of Willpower
 Starting at 10th level, you can spend your contact to cast *eldritch blast* on that creature as a bonus action.  Additionally, whenever you cast *eldritch blast*, you may pay 1 PSI to enter into a psionic clash with one of its targets.
@@ -207,6 +213,10 @@ Starting at 6th level, when you cast *psionic probe*, you may target an addition
 #### Native Telepath
 Starting at 6th level, you can communicate telepathically with any creature you can see or any willing creature you are aware of as long as you are on the same plane of existence.  You don't need to share a language with that creature, but it must be able to understand at least one language.
 
+<div class='pageNumber auto'></div>
+<div class='footnote'>Chapter 1 | The Psion</div>
+\page
+
 #### Memory Manipulation
 Starting at 10th level, when you use a telepathic spell on a creature, you may spend the contact to prevent them from remembering anything from the initiation of contact until the spell ends.  While spellbound, if significant changes in their environment occur, they may realize that they have been charmed when the spell ends, and depending on the events leading up to the point of contact they may be able to surmise who was responsible, but they will otherwise have no direct memory of their time spent under the effects of the spell.
 
@@ -221,26 +231,26 @@ Starting at 14th level, as a bonus action, you can spend your contact to attempt
 ##### The Adept
 | Level | Proficiency Bonus | PSI Blades | PSI Points | Psionic Modes | Features |
 |:-----:|:-----------------:|:----------:|:----------:|:-------------:|:---------|
-| 1st   | +2 | 1d4  | -  | 2 | Unarmored Defense, PSI Blades                     |
-| 2nd   | +2 | 1d4  | 2  | 2 | PSI Points, Unarmored Movement, Psychic Probe     |
-| 3rd   | +2 | 1d4  | 3  | 2 | Adept Tradition, Deflect Missiles                  |
-| 4th   | +2 | 1d4  | 4  | 2 | Ability Score Improvement, Slow Fall              |
-| 5th   | +3 | 1d6  | 5  | 2 | Extra Attack, Stunning Strike                     |
-| 6th   | +3 | 1d6  | 6  | 3 | PSI-Empowered Strikes, Adept Tradition Feature    |
-| 7th   | +3 | 1d6  | 7  | 3 | Evasion, Stillness of Mind                        |
-| 8th   | +3 | 1d6  | 8  | 3 | Ability Score Improvement                         |
-| 9th   | +4 | 1d6  | 9  | 3 | Unarmored Movement Improvement                    |
-| 10th  | +4 | 1d6  | 10 | 3 | Purity of Body                                    |
-| 11th  | +4 | 1d8  | 11 | 4 | Adept Tradition Feature                           |
-| 12th  | +4 | 1d8  | 12 | 4 | Ability Score Improvement                         |
-| 13th  | +5 | 1d8  | 13 | 4 | Native Telepath                                   |
-| 14th  | +5 | 1d8  | 14 | 4 | Harmonic Essence                                  |
-| 15th  | +5 | 1d8  | 15 | 4 | Timeless Body                                     |
-| 16th  | +5 | 1d8  | 16 | 5 | Ability Score Improvement                         |
-| 17th  | +6 | 1d10 | 17 | 5 | Adept Tradition Feature                           |
-| 18th  | +6 | 1d10 | 18 | 5 | Empty Body                                        |
-| 19th  | +6 | 1d10 | 19 | 5 | Ability Score Improvement                         |
-| 20th  | +6 | 1d10 | 20 | 5 | Perfect Self                                      |
+| 1st   | +2 | 1d4  | -  | +0 | Unarmored Defense, PSI Blades                     |
+| 2nd   | +2 | 1d4  | 2  | +1 | PSI Points, Unarmored Movement, Psychic Probe     |
+| 3rd   | +2 | 1d4  | 3  | +1 | Adept Tradition, Deflect Missiles                  |
+| 4th   | +2 | 1d4  | 4  | +1 | Ability Score Improvement, Slow Fall              |
+| 5th   | +3 | 1d6  | 5  | +1 | Extra Attack, Stunning Strike                     |
+| 6th   | +3 | 1d6  | 6  | +1 | PSI-Empowered Strikes, Adept Tradition Feature    |
+| 7th   | +3 | 1d6  | 7  | +1 | Evasion, Stillness of Mind                        |
+| 8th   | +3 | 1d6  | 8  | +2 | Ability Score Improvement                         |
+| 9th   | +4 | 1d6  | 9  | +2 | Unarmored Movement Improvement                    |
+| 10th  | +4 | 1d6  | 10 | +2 | Purity of Body                                    |
+| 11th  | +4 | 1d8  | 11 | +2 | Adept Tradition Feature                           |
+| 12th  | +4 | 1d8  | 12 | +2 | Ability Score Improvement                         |
+| 13th  | +5 | 1d8  | 13 | +2 | Native Telepath                                   |
+| 14th  | +5 | 1d8  | 14 | +2 | Harmonic Essence                                  |
+| 15th  | +5 | 1d8  | 15 | +3 | Timeless Body                                     |
+| 16th  | +5 | 1d8  | 16 | +3 | Ability Score Improvement                         |
+| 17th  | +6 | 1d10 | 17 | +3 | Adept Tradition Feature                           |
+| 18th  | +6 | 1d10 | 18 | +3 | Empty Body                                        |
+| 19th  | +6 | 1d10 | 19 | +3 | Ability Score Improvement                         |
+| 20th  | +6 | 1d10 | 20 | +3 | Perfect Self                                      |
 </div>
 
 # Adept
@@ -273,13 +283,33 @@ One of the biggest questions to answer when creating an adept is to figure out w
 <p>Another thing to think about when creating your adept is what was your school like.  Was it a lone master, helping you find time to train in private training halls, individuals' houses, or even the back alleys?  Was it a formal chartered institution near one of the major cities?  Perhaps it was a secretive recluse who trained her students, seeking revenge on one of her peers.</p>
 
 ### Quick Build
-You can make an adept quickly by following these suggestions.  First, Constitution should be your highest ability score, followed by Charisma.  Second, choose the hermit background.
+You can make an adept quickly by following these suggestions.  First, Constitution should be your highest ability score, followed by Charisma.  Second, choose *empty mind*, and *feedback loop* as your known psionic modes.  Finally, choose the hermit background.
 
 ```
 ```
 
 ## Class Features
 As the PHB Monk, unless otherwise noted.  Swap usages of dexterity for constitution generally, and wisdom for charisma.
+
+#### Hit Points
+**Hit Dice**: 1d8 per adept level<br>
+**Hit Points at 1st Level:** 8 + your Constitution modifier<br>
+**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per psion level after 1st<br>
+
+#### Proficiencies
+**Armor:** None<br>
+**Weapons:** Simple weapons, shortswords<br>
+**Tools:** Choose one type of artisan's tools or one musical instrument<br>
+<br>
+**Saving Throws:** Constitution, Charisma<br>
+**Skills:** Choose two from Acrobatics, Athletics, Culture, Insight, and Stealth
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+
+* (a) a shortsword or (b) any simple weapon
+* (a) a dungeoneer's pack or (b) a explorer's pack
+* 10 darts
 
 ### Unarmored Defense
 Adepts use a variety of techniques to increase their agility and resilience while fighting.  It could be a metabolic burst of energy, a psychokinetic burst to deflect an attack, or using the adepts control over their body to temporarily increase the stiffness or regeneration of the skin.  This ability uses Dexterity and Constitution.
@@ -290,8 +320,15 @@ Renamed from *Martial Arts* in PHB.  PSI Blades allow the adept to create psycho
 ### PSI Points
 Renamed from *Ki* in PHB.  Use Charisma modifier instead of Wisdom for PSI save DC
 
+#### Psionic Modes
+The number of additional Psionic Modes known above the base known by all (2).  When you create a 1st-level adept, you choose your known psionic modes instead of picking them randomly.
+
 ### Psychic Probe
-In addition to the number of psionic modes known listed in the adept table, you know and may cast the *psychic probe* cantrip.
+At 2nd level, you gain the *psychic probe* cantrip if you don't already have it.
+
+<div class='pageNumber auto'></div>
+<div class='footnote'>Chapter 2 | The Adept</div>
+\page
 
 ### Native Telepath
 Renamed from *Tongue of the Sun and Moon* for fictional purposes.  The effect was also changed slightly to match the fiction of telepathic communication presented in the rest of this document.
@@ -306,10 +343,6 @@ The following are loose notes on how to re-theme the monk's subclasses.
 ### Way of the Open Hand
 This particular subclass really needs no adaptations to survive.  *Wholeness of Body* allows regeneration in accordance with psychometabolic fiction.  *Tranquility* is a slight stretch fictionally, but not completely out of bounds.
 
-<div class='pageNumber auto'></div>
-<div class='footnote'>Chapter 2 | The Adept</div>
-\page
-
 ### Way of Shadow
 This subclass stretches the fiction of psionics a bit, but I am content to leave it as in lieu of adapting it at this time, since it seems like an otherwise fun and useful subclass.  I may one day provide a suitable alternative, but for now follow the notes below.
 
@@ -322,8 +355,11 @@ I don't care for the explicit reliance upon shadow, and would consider replacing
 #### Cloak of Shadows
 Invisibility cannot be acheived telepathically, since it would involve affecting the minds of too many entities at once.  Shadow based invisibility could be achieved by turning the skin and eye pigments black, and possibly using some psychokinetic effect to distort or deflect incoming light.  Due to the limitations on being in shadow, this makes the effect presented actually work out ok, if not great.
 
+```
+```
+
 ### Way of the Long Death
-The specific relation to undeath is sort of unrelated, although not strictly required either.  At any rate there's nothing really preventing an individual with psionic powers from studying the undead, but no real synergy either.  However, the study of life, and the process of dying would be of great use to someone with psychometabolic powers.
+The fictional focus of undeath is not directly related to the mechanics of this subclass.  From a fictional perspective, someone following this path could just study the natural forces of life and death.  If the fictional connection to undeath is desired, it can be maintained, but it would have no obvious tie-ins with psionic powers.  With the modification to simply life and death, this makes a great fictional attachment to the standard psychometabolic powers that are common with the adept.
 
 #### Touch of Death
 This power could easily be learned by mimicking some of the blood/moisture draining animals and plants that are not too rarely found in Athas.
@@ -338,16 +374,13 @@ The result of clairsentient powers.
 The necrotic energy could be the result of a powerful negative biofeedback loop generated in the target.  Alternatively the energy type could be changed to force or psychic for a more psychokinetic or telepathic touch.
 
 ### Way of the Drunken Master
-All the effects badly need a re-theme, but are mechanically inline with the fiction of the adept.  I'd probably drop the Performance proficiency, as it seems out of place here, and instead provide athletics or acrobatics.  Since those skills would generally be more useful anyways, the loss of the brewer's tools won't be noticed.
-
-```
-```
+This fiction is not appropriate for the DarkSun setting, which has a serious and grim tone, whereas the typical Drunken Master plays more of a humorous role.  However, from a mechanical perspective there is probably no purer implementation of the capabilities of an adapt focusing on psychometabolic enhanced combat.  This could be called **The Way of the Sandstorm** without changing any mechanics.  One slight modification would be to drop the Performance proficiency, and instead provide athletics or acrobatics which would see more usage.  Additionally, there is no fictional reason for this modified subclass to have brewer's tools, so either drop it completely (after all, they just upgraded performance to athletics/acrobatics) or let the player pick another tool or language.
 
 ### Way of the Kensei
-Basically an adept who focuses on their weapon, and instills psionic forces to it as per standard *PSI blades*. 
+Basically an adept who focuses on their weapon, and instills psionic forces to it akin to the standard *PSI blades* class feature.  Without the standard monk fiction behind it, fictionally this is a boring class.  As an alternative, in the DarkSun setting, they should be considered adepts whose training had an emphasis on gladitorial combat.
 
 #### Way of the Brush
-This doesn't really fit thematically as writing is extremely uncommon on Athas.  I'm not sure this really needs to be replaced with anything, and if so if there's anything particularly appropriate.
+This doesn't really fit thematically as writing is extremely uncommon on Athas.  Either drop this completely (it's next to useless in a standard game anyways...), or substitute another tool or language of the player's choice.
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 2 | The Adept</div>
@@ -413,6 +446,19 @@ Contact is a condition that represents the psychic influence of one individual o
 <p>Most telepathic spells require contact.  If that character already has established contact with the target, then that contact is spent.  However, if the character does not have contact, they have the opportunity to enter into a psionic conflict.  If they win, the contact is spent on the spell.  If the caster does not win the conflict, the action is failed, but no PSI points are spent.  Telepathic spells that require contact and otherwise specify an attack roll, savings throw or ability check are instead automatically successful.</p>
 <p>The contact condition cannot be applied from the same contacter to the same contactee more than once simultaneously.  Contact has no requirement of PSI or concentration to maintain, but if the contacter is not within 60' of the contactee for more than a minute, the condition is removed.</p>
 
+### Mass Contact
+In the interest in time, when a telepathic spell affects multiple targets, there are a few alternate methods to assist.  The below assumes that all the entities have no special telepathic powers.  For entities which do posses enhanced telepathics, resolve the psionic combat as normal.  For example, if a group of 3 untrained thri-kreen and 1 thri-kreen adept were to come under group attack, resolve the psionic combat with the adept as normal, and use one of the below methods for the 3 untrained thri-kreen.
+
+#### Method One
+Choose one card at random from all seven possible modes.  This represents the collective unconcious of the group as its minds awaken and interfere with each other chaotically.
+
+#### Method Two
+As above, but instead of choosing a mode randomly, choose one mode from a pool of all known psionic modes by any member of the group.
+
+#### Method Three
+Use method two, but break large groups into smaller groups whose members are similar.
+
+
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 3 | Psionic Combat</div>
 \page
@@ -470,20 +516,21 @@ Something here.
   - C - Clairsentient
   - P - Psychokinetic
   - T - Telepathic
+  - t - Telepathic, no contact required
   
 ##### Cantrips (0 Level)
  - C - Blade Ward
  - P - Booming Blade
  - P - Control Flames
  - P - Eldritch Blast
- - T - Friends
+ - t - Friends
  - C - Guidance
  - P - Gust
  - P - Mage Hand
- - T - Message
+ - t - Message
  - P - Mold Earth
  - T - Psychic Probe
- - T/P - Psychonistry
+ - t/P - Psychonistry
  - C - Resistance
  - P - Shillelagh
  - P - Thunderclap
@@ -523,7 +570,7 @@ Something here.
  - P - Cloud of Daggers
  - T - Crown of Madness
  - C - Darkvision
- - T - Detect Thoughts
+ - C - Detect Thoughts
  - T - Enthrall
  - C - Find Traps
  - P - Gust of Wind
@@ -541,7 +588,7 @@ Something here.
 
 ##### 3rd Level
  - C - Clairvoyance
- - T - Counterpsionics
+ - C - Counterpsionics
  - T - Enemies Abound
  - T - Fear
  - P - Fly
@@ -561,7 +608,7 @@ Something here.
 
 ##### 5th Level
  - P - Bigby's Hand
- - T - Contact Other Plane
+ - C - Contact Other Plane
  - P - Control Winds
  - P - Destructive Wave
  - T - Dominate Person
