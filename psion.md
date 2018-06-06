@@ -12,10 +12,15 @@ Thank you for taking the time to look at this home-brew implementation of psioni
  * A psionic skill, similar to arcana or religion
  * Spell list and Spell conversions for psionic magic
  * A guide for alternatives to adapt the psion in a setting where psionics are not ubiquitous
+ 
+These rules are designed based on the premise that nearly individual has at least some level of latent psionic ability.  As a result, all characters and NPCs possess a minimum of 2 *psionic modes*.  In the case of characters since their abilities are untrained, they gain 2 at random during character creation.  I plan on adapting specific creatures to possess a given set of skills, so players could use this knowledge to aid their psionic combat.  Additionally, PCs and NPCs will generally have some wild talent, an extra power they can use once a day that is psionic in nature.
 
 ### Using the supplements
 
 <p>Additionally, this document is intended to be distributed with another document that contains a chart to aid usage of psionic combat and cards to print for psionic combat.  I recommend printing out the main chart and putting a copy somewhere central so that all players can easily view it.  As for the cards, I'd recommend printing one set for the DM and another set for any psions, with maybe an additional set floating around for people that have any psionic defenses.  It should be pretty easy to make the specific cards you need.  I personally slip the paper into a card protector that has another card already in there (poker or magic works well for this).  This gives it a nice solidity.  I'm loosely toying with the idea of having some sets printed up.</p>
+
+```
+```
 
 ### Inspirations
 
@@ -487,8 +492,11 @@ I chose charisma for my setting, but this could easily be wisdom as well.  In my
 
 # Supplementary Rules
 
+## Concentration
+The rules for concentration are the same for casting psionic spells that require concentration.
+
 ## Multi-classing
-Something here.
+Characters add all their PSI points together from all their psionic classes to form one pool of PSI points.  Psionic spells are completely different than their magical counterpart and thus, an individual multi-classed in such a way could have two copies known of the same spell, one psionic and one magical.
 
 ## Skills
 The skill sections above for the psion and adept make reference to the *culture* and *parapsychology* skills.  In my home-brew version of DarkSun, the *history* and *religion* skills are not present, and culture has filled the gap they left behind.  If you are using this psionics home-brew in a world where those are present, it would be fitting to swap *culture* for *history*.
@@ -501,7 +509,25 @@ Additionally, I have created a *parapsychology* skill to function as an analogue
 <p>If you wish to avoid introducing another skill to your game, this material could reasonably be handled with the *arcana* skill.</p>
 
 ## Feats
-Something here.
+
+### Elemental Adept
+Due to the prevalence of psionics in my setting, I also allow the "psychic" category of damage types to be chosen here.
+
+### Mage Slayer
+Casting a psionic spell still counts as casting a spell (both generally, and for specifically for this feat).
+
+### Psionic Initiate
+Similar to Magic Initiate, but only for psionic spells.  You follow the rules for casting spells as per the Psion class, and gain 1 PSI with which to cast the level 1 spell chosen.  Charisma is the ability modifier for this spell.<br>
+**Note:** I have created this as a separate feat so that players could take both initiate feats if so desired.
+
+```
+```
+
+### Spell Sniper
+The cantrip chosen can also come from the psionic spell list.  Charisma is the ability modifier.
+
+### War Caster
+This feat works for psionic spells as well, although obviously the second benefit has no use since psionic spells do not have components.
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 5 | Supplementary Rules</div>
@@ -530,7 +556,7 @@ Something here.
  - t - Message
  - P - Mold Earth
  - T - Psychic Probe
- - t/P - Psychonistry
+ - t/PC - Psychonistry
  - C - Resistance
  - P - Shillelagh
  - P - Thunderclap
@@ -541,7 +567,7 @@ Something here.
  - C - Alarm
  - T - Animal Friendship
  - T - Bane
- - T - Beast Bond
+ - t - Beast Bond
  - P - Catapult
  - T - Cause Fear
  - T - Charm Person
@@ -556,11 +582,11 @@ Something here.
  - P - Featherfall
  - P - Floating Disk
  - t - Heroism
- - T - Hideous Laughter
  - C - Identify
  - P - Jump
  - P - Magic Missile
  - P - Shield
+ - T - Tasha's Hideous Laughter
  - P - Thunderwave
 
 ##### 2nd Level 
@@ -629,13 +655,14 @@ Something here.
  - C - Find the Path
  - P - Globe of Invulnerability
  - T - Mass Suggestion
+ - T - Mental Prison
  - t - Otto's Irresistible Dance
  - C - True Seeing
 
 ##### 7th Level
  - P - Forcecage
  - P - Mordenkainen's Sword
- - T - Power Word Pain
+ - t - Power Word Pain
  - P - Whirlwind
 
 ##### 8th Level
@@ -669,13 +696,13 @@ ___
 Enter into a psionic clash with a target you can see within range, unless you have already established contact with that target.  If you win the clash, or have already established contact, you deal 1d6 psychic damage to your target.
 
 #### Psychonistry
-Some description here.
+This spell can be used to generate minor psionic effects, similar in nature to *presdidigitation* or *thaumaturgy*.  The DM will adjudicate the exact effects possible, but some examples might be: poke someone, give an object a small push, open and rattle windows or curtains, cause a small effect in the mind of an individual such as a brief sensation, emotion, or thought that is obviously psionic in nature, getting a brief glimpse of a nearby hidden object, or hearing a word or short phrase from across the room, glimpsing a minor characteristic of an event in the very near future, etc.
 
 #### Detect Psionics
-Some description here.
+Equivalent to detect magic, but for psionics.
 
 #### Counterpsionics
-Some description here.
+Equivalent to counterspell, but for psionics.
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 6 | Psionic Spells</div>
