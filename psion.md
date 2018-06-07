@@ -13,11 +13,12 @@ Thank you for taking the time to look at this home-brew implementation of psioni
  * Spell list and Spell conversions for psionic magic
  * A guide for alternatives to adapt the psion in a setting where psionics are not ubiquitous
  
-These rules are designed based on the premise that nearly individual has at least some level of latent psionic ability.  As a result, all characters and NPCs possess a minimum of 2 *psionic modes*.  In the case of characters since their abilities are untrained, they gain 2 at random during character creation.  I plan on adapting specific creatures to possess a given set of skills, so players could use this knowledge to aid their psionic combat.  Additionally, PCs and NPCs will generally have some wild talent, an extra power they can use once a day that is psionic in nature.
+These rules are designed based on the premise that nearly individual has at least some level of latent psionic ability.  As a result, all PCs and NPCs possess a minimum of 2 *psionic modes*.  For non-psionic PCs, those two abilities are chosen randomly to represent the untrained nature of their power..  Specific creatures will generally possess a pre-determined set of skills.  Thus, players can use the knowledge from their previous encounters to aid their psionic combat.  Additionally, PCs and NPCs will have some wild talent, an extra power they can use once a day that is psionic in nature.  Wild talents are not detailed in this guide.
 
 ### Using the supplements
 
-<p>Additionally, this document is intended to be distributed with another document that contains a chart to aid usage of psionic combat and cards to print for psionic combat.  I recommend printing out the main chart and putting a copy somewhere central so that all players can easily view it.  As for the cards, I'd recommend printing one set for the DM and another set for any psions, with maybe an additional set floating around for people that have any psionic defenses.  It should be pretty easy to make the specific cards you need.  I personally slip the paper into a card protector that has another card already in there (poker or magic works well for this).  This gives it a nice solidity.  I'm loosely toying with the idea of having some sets printed up.</p>
+<p>This document is intended to be distributed with two supplementary documents.  One contains a chart to aid resolution of psionic combat.  The other contains cards to print for the reveal phase in psionic combat.</p>
+<p>The main chart should be made easily viewable for all players.  For the cards, I print them out on standard paper with no margins or scaling.  After cutting them up, the resulting "card" should be about the size of a standard playing card.  However, it will be too flimsy for use as is.  I slip this paper into a card protector that already has another player card in it.  This keeps it from bending too much.  Depending on the number of players, it may be useful to print a few of these decks.</p>
 
 ```
 ```
@@ -259,9 +260,9 @@ Starting at 14th level, as a bonus action, you can spend your contact to attempt
 </div>
 
 # Adept
-After years of training and sparring, a Half-Giant adept prepares to leave her school.  Her body has become a pure extension of her will, and she is an expert warrior.  With equipment scarcely more than a light robe, she begins a short trek across the desert to the nearest city, Balic.  She is more than capable of getting through any obstacle.
-<p>Unseen, a shadowy half-elf stalks through a luxurious mansion.  He is a member of a dark, underground soceity who trains in arts considered by most taboo.  His cabal makes thrives by providing services that few others are capable of.  Although life is cheap on Athas, death is not.</p>
-<p>In the boulder fields, a small group of escaped slaves skirmishes with a B'rohg.  A Thri-kreen adept deftly jumps over boulders, skirts in and out of the reach of his four long arms, and quickly rushes through his legs to deliver a final blow to defeat their foe.  He and his companions are safe, for now.</p>
+After years of training and sparring, a Half-Giant adept prepares to leave her school.  Her mind and body have fused to become a nearly perfect weapon.  With equipment scarcely more than a light robe, she begins a short trek across the desert to the nearest city.  She is more than capable of getting through any obstacle.
+<p>Unseen, a shadowy half-elf stalks through a luxurious mansion.  He is a member of an underground soceity that trades in arts considered by most taboo.  His cabal makes thrives by providing services that few others are capable of.  Although life is cheap on Athas, death is not.</p>
+<p>In the boulder fields, a small group of escaped slaves skirmishes with a large B'rohg.  One of the escapees, a thri-kreen adept, deftly jumps among the boulders, uses it's unnatural speed and agility to skirt in and out of the reach of foe's long arms.  Finally, the adept quickly rushes between the  B'rogh's legs and delivers a final blow. The thri-kreen and it's companions are safe, for now.</p>
 
 ```
 ```
