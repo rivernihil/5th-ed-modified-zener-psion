@@ -13,15 +13,10 @@ Thank you for taking the time to look at this home-brew implementation of psioni
  * Spell list and Spell conversions for psionic magic
  * A guide for alternatives to adapt the psion in a setting where psionics are not ubiquitous
  
-These rules are designed based on the premise that nearly individual has at least some level of latent psionic ability.  As a result, all PCs and NPCs possess a minimum of 2 *psionic modes*.  For non-psionic PCs, those two abilities are chosen randomly to represent the untrained nature of their power..  Specific creatures will generally possess a pre-determined set of skills.  Thus, players can use the knowledge from their previous encounters to aid their psionic combat.  Additionally, PCs and NPCs will have some wild talent, an extra power they can use once a day that is psionic in nature.  Wild talents are not detailed in this guide.
-
 ### Using the supplements
 
 <p>This document is intended to be distributed with two supplementary documents.  One contains a chart to aid resolution of psionic combat.  The other contains cards to print for the reveal phase in psionic combat.</p>
 <p>The main chart should be made easily viewable for all players.  For the cards, I print them out on standard paper with no margins or scaling.  After cutting them up, the resulting "card" should be about the size of a standard playing card.  However, it will be too flimsy for use as is.  I slip this paper into a card protector that already has another player card in it.  This keeps it from bending too much.  Depending on the number of players, it may be useful to print a few of these decks.</p>
-
-```
-```
 
 ### Inspirations
 
@@ -29,6 +24,14 @@ I was chiefly inspired by the second edition psionics, which I made use of quite
 <p>Looking back on 2nd edition, one of the things that I loved most was the fiction of the different psionic attack and defense modes.  This love was further cemented by the excellent depictions of psionic combat in *The Verdant Passage*.  However, mechanically, those elements never really shined during play.  Furthermore, the psionicist class as a whole was generally overpowered, stronger than equivalent classes, while simultaneously containing lots of design traps.  Additionally, it was a pain in the butt to use and keep track of.  Luckily for the me, the excellent design of 5th edition has cleared things up a bit and given me room to build the psionicist I always dreamed of.</p>
 <p>Over the years, I marinated on those combat modes, and dreamed of marrying them with Zener cards.  The result is in this document.  Gone is the separation between attack and defense and power scores.  The cards provide a simple, fun rock-paper-scissors style of combat that, with my additions, I feel meshes nicely with core 5th edition mechanics.  The prevalence of psionics in the DarkSun setting led me to design psionic combat in a way that is fundamental to the gameplay at the table, and hopefully others will find it useful.  However, I completely understand that some will find this approach too heavy handed for their own games.</p>
 <p>Additionally, I desired to clean up psionics a bit thematically.  The in-game fiction of psionics has drifted far from standard sci-fi and fantasy regarding psychic powers.  In my fiction, the things that can be accomplished by psionics is slightly more limited than what has been typical fare for D&D.</p>
+
+### Design Notes
+
+These classes were designed to be used in a homebrew DarkSun campaign setting.
+<p>One key aspect of that is the premise that nearly individual has at least some level of latent psionic ability.  As a result, all PCs and NPCs possess a minimum of 2 *psionic modes*.  For non-psionic PCs, those two abilities are chosen randomly to represent the untrained nature of their power..  Specific creatures will generally possess a pre-determined set of skills.  Thus, players can use the knowledge from their previous encounters to aid their psionic combat.  Additionally, PCs and NPCs will have some wild talent, an extra power they can use once a day that is psionic in nature.  Wild talents are not detailed in this guide.</p>
+<p>For the design of the Psion, I wanted to keep its powerlevel in line with that of the wizard and/or sorceror.  In my version of the DarkSun setting, the psion fills a role that magic users would normally.  This role-filling also applies somewhat to warlocks as well.  Standard warlocks don't exist in my setting, but a modified version of them fills the role of the Templars of Athas.  As such, due to either rarity or modifications, using elements of the other classes design was desireable from the perspective of balance, ease, and expediency.</p>
+<p>PSI points were calculated based on the number of spell slots that the sorceror has available, counting also their ability to convert metamagic into spell slots.  This value was then further reduced in a formulaic fashion as I was concerned that they had too much flexibility, despite their reduced spell list.</p>
+
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Introduction</div>
@@ -162,7 +165,7 @@ At 18th level, you have achieved such mastery over certain spells that you can c
 <p>By spending 8 hours in meditation, you can exchange one or both of the spells you chose for different spells of the same levels.</p>
 
 ### Mental Mastery
-When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort.  Choose two 3rd-level psion spells from among those you know as your mastered spells.  You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at their lowest level without expending PSI.  When you do so, you can't do so again until you finish a short rest.
+When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort.  Choose two 3rd-level psion spells from among those you know as your mastered spells.  You can cast each of them once at their lowest level once a day without expending PSI.  When you do so, you can't do so again until you finish a short rest.
 <p>If you want to cast either spell at a higher level, you must expend PSI as normal.</p>
 
 <div class='pageNumber auto'></div>
