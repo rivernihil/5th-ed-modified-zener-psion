@@ -274,32 +274,32 @@ After years of training and sparring, a Half-Giant adept prepares to leave her s
 ### Note: Adapting the adept
 The Adept presented here is quite different from the Psion above.  As opposed to being a completely new class (with a new combat system), the Adept is primarily a mild re-skin of the standard monk class.  The monk as presented in 5th edition has powers that are essentially psionic in nature as well as psionic fictionally.  Given that, a few modifications were made to allow them to integrate into model of psionics above.
 
-<p>The adept described below uses charisma (similar to the psion's spellcasting abilities), and constitution (representing their control over their body) instead of the wisdom and dexterity common to the monk.</p>
+<p>The adept described below uses charisma (similar to the psion's spellcasting abilities) and constitution (representing their control over their body) instead of the wisdom and dexterity common to the monk.</p>
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 2 | The Adept</div>
 \page 
 
-<p>Described below are the modifications to the original monk class, as well as a few notes on re-theming existing monk features.  A few of the subclasses are missing altogether as they do not fit fictionally with a monk powered by psionics.  The Way of the Four Elements, besides being generally thought of as poorly balanced, does not fit the psionic theme of the Adept, and any attempt to alter it would destroy its primary attraction.  It would almost be easier to make an entirely new subclass that had a skill menu.  The Way of the Sun Soul could probably be made useable, but it still requires more modification than just swapping the names around, so I have not adapated it for the time being.  The Way of Tranquility might fit within the theme of psionics presented here, but it does not thematically in my DarkSun campaign, so I have chosen not to adapt it.</p>
+<p>Described below are the modifications to the original monk class as well as a few notes on re-theming existing monk features.  A few of the subclasses are missing altogether as they do not fit fictionally with a monk powered by psionics.  The Way of the Four Elements, besides being generally thought of as poorly balanced, does not fit the psionic theme of the Adept, and any attempt to alter it would destroy its primary attraction.  It would almost be easier to make an entirely new subclass that had a skill menu.  The Way of the Sun Soul could probably be made useable, but it still requires more modification than just swapping the names around, so I have not adapated it for the time being.  The Way of Tranquility might fit within the theme of psionics presented here, but I have chosen not to adapt it since it is not thematically proper for my DarkSun campaign.</p>
 
 ### Body and Mind
 Adepts of Athas spend years meditating and exercising.  During this time, they utilize their natural psionic abilities to gain mastery over their biology.  Through the training of the adepts, many impressive feats are possible, such as temporarily enhanced strength, faster movement, hardened skin, or more.  Although focused heavily on feats of physique, they also have no less a capable mind.
 
 ### Training and Asceticism
-Adepts train for years under the guidance of a master.  These "schools" teach a variety of different techniques, passed down from master to student, and as those students grow not only under the guidance of their master but in their own rights, they may continue the lineage of their master, or start a new school of their own (if they desire to take on students at all).  Some of their practices involve enduring extreme conditions in order to unlock the powers of the mind.
+Adepts train for years under the guidance of a master.  These "schools" teach a variety of different techniques, passed down from master to student, and as those students grow not only under the guidance of their master but in their own rights, they may continue the lineage of their master or start a new school of their own (if they desire to take on students at all).  Some of their practices involve enduring extreme conditions in order to unlock the powers of the mind.
 
 ### Creating an Adept
-One of the biggest questions to answer when creating an adept is to figure out why you are adventuring.  Many adepts roam Athas looking for tests of skill to prove their own mastery.  Others seek hidden knowledge to let them perfect a powerful technique.  Some, turned out by their school, seek adventure as simply a means to survival, or to gather enough wealth to oneday found their own school.  Others have important missions entrusted to them by their school, or from other sources, and they use their powers to accomplish some ends.
-<p>Another thing to think about when creating your adept is what was your school like.  Was it a lone master, helping you find time to train in private training halls, individuals' houses, or even the back alleys?  Was it a formal chartered institution near one of the major cities?  Perhaps it was a secretive recluse who trained her students, seeking revenge on one of her peers.</p>
+One of the biggest questions to answer when creating an adept is to figure out why you are adventuring.  Many adepts roam Athas looking for tests of skill to prove their own mastery.  Others seek hidden knowledge to let them perfect a powerful technique.  Some, turned out by their school, seek adventure as simply a means to survival or to gather enough wealth to one day found their own school.  Others have important missions entrusted to them by their schools or other sources, and they use their powers to accomplish these tasks.
+<p>Another thing to think about when creating your adept is what your school was like.  Was it a lone master helping you find time to train in private training halls, individuals' houses, or even the back alleys?  Was it a formal chartered institution near one of the major cities?  Perhaps it was a secretive recluse who trained her students, seeking revenge on one of her peers.</p>
 
 ### Quick Build
-You can make an adept quickly by following these suggestions.  First, Constitution should be your highest ability score, followed by Charisma.  Second, choose *empty mind*, and *feedback loop* as your known psionic modes.  Finally, choose the hermit background.
+You can make an adept quickly by following these suggestions.  First, Constitution should be your highest ability score, followed by Charisma.  Second, choose *empty mind* and *feedback loop* as your known psionic modes.  Finally, choose the hermit background.
 
 ```
 ```
 
 ## Class Features
-As the PHB Monk, unless otherwise noted.  Swap usages of dexterity for constitution generally, and wisdom for charisma.
+As the PHB Monk, unless otherwise noted.  Swap usages of dexterity for constitution generally, and exchange wisdom for charisma.
 
 #### Hit Points
 **Hit Dice**: 1d8 per adept level<br>
@@ -351,19 +351,19 @@ Renamed from *Diamond Soul* in the PHB.
 The following are loose notes on how to re-theme the monk's subclasses.
 
 ### Way of the Open Hand
-This particular subclass really needs no adaptations to survive.  *Wholeness of Body* allows regeneration in accordance with psychometabolic fiction.  *Tranquility* is a slight stretch fictionally, but not completely out of bounds.
+This particular subclass really needs no adaptations to survive.  *Wholeness of Body* allows regeneration in accordance with psychometabolic fiction.  *Tranquility* is a slight stretch fictionally but not completely out of bounds.
 
 ### Way of Shadow
-This subclass stretches the fiction of psionics a bit, but I am content to leave it as in lieu of adapting it at this time, since it seems like an otherwise fun and useful subclass.  I may one day provide a suitable alternative, but for now follow the notes below.
+This subclass stretches the fiction of psionics a bit, but at this time, I am content to leave it "as is" in lieu of adapting it since it seems like an otherwise fun and useful subclass.  I may one day provide a suitable alternative, but for now follow the notes below.
 
 #### Shadow Arts
 Instead of *darkness*, and *silence*, the adept should learn *blindness/deafness* and *hold person*.  Instead of the *minor illusion* cantrip, they should learn *mage hand*.
 
 #### Shadow Step
-I don't care for the explicit reliance upon shadow, and would consider replacing the effect with that of *misty step*.  The adept can use a combination of speed, distraction, illusory body doubles, and chameleonic skin to achieve such speed.
+I don't care for the explicit reliance upon shadow and would consider replacing the effect with that of *misty step*.  The adept can use a combination of speed, distraction, illusory body doubles, and chameleonic skin to achieve such speed.
 
 #### Cloak of Shadows
-Invisibility cannot be acheived telepathically, since it would involve affecting the minds of too many entities at once.  Shadow based invisibility could be achieved by turning the skin and eye pigments black, and possibly using some psychokinetic effect to distort or deflect incoming light.  Due to the limitations on being in shadow, this makes the effect presented actually work out ok, if not great.
+Invisibility cannot be acheived telepathically since it would involve affecting the minds of too many entities at once.  Shadow based invisibility could be achieved by turning the skin and eye pigments black while possibly using some psychokinetic effect to distort or deflect incoming light.  Due to the limitations on being in shadow, this makes the effect presented actually work out ok, if not great.
 
 ```
 ```
@@ -381,13 +381,13 @@ Fairly standard telepathic effect.
 The result of clairsentient powers.
 
 #### Touch of Long Death
-The necrotic energy could be the result of a powerful negative biofeedback loop generated in the target.  Alternatively the energy type could be changed to force or psychic for a more psychokinetic or telepathic touch.
+The necrotic energy could be the result of a powerful negative biofeedback loop generated in the target.  Alternatively, the energy type could be changed to force or psychic for a more psychokinetic or telepathic touch.
 
 ### Way of the Drunken Master
 This fiction is not appropriate for the DarkSun setting, which has a serious and grim tone, whereas the typical Drunken Master plays more of a humorous role.  However, from a mechanical perspective there is probably no purer implementation of the capabilities of an adapt focusing on psychometabolic enhanced combat.  This could be called **The Way of the Sandstorm** without changing any mechanics.  One slight modification would be to drop the Performance proficiency, and instead provide athletics or acrobatics which would see more usage.  Additionally, there is no fictional reason for this modified subclass to have brewer's tools, so either drop it completely (after all, they just upgraded performance to athletics/acrobatics) or let the player pick another tool or language.
 
 ### Way of the Kensei
-Basically an adept who focuses on their weapon, and instills psionic forces to it akin to the standard *PSI blades* class feature.  Without the standard monk fiction behind it, fictionally this is a boring class.  As an alternative, in the DarkSun setting, they should be considered adepts whose training had an emphasis on gladitorial combat.
+Basically an adept who focuses on their weapon and instills psionic forces to it akin to the standard *PSI blades* class feature.  Without the standard monk fiction behind it, fictionally this is a boring class.  As an alternative, in the DarkSun setting, they should be considered adepts whose training had an emphasis on gladitorial combat.
 
 #### Way of the Brush
 This doesn't really fit thematically as writing is extremely uncommon on Athas.  Either drop this completely (it's next to useless in a standard game anyways...), or substitute another tool or language of the player's choice.
@@ -397,23 +397,23 @@ This doesn't really fit thematically as writing is extremely uncommon on Athas. 
 \page
 
 # Psionic Combat
-Psionic combat is intended to a fun and unique system to engage your players with and lies at the heart of the fun of playing a psionicist (any character that has specific psionic powers, e.g. a psion or adept). Creating a unique system was essential to making the psion feel like more than just another type of wizard. Psionic combat involves 3 distinct parts that operate together:  psionic modes, psionic clashes, and contact.  To assist with this, I have provided a separate PDF that contains an info sheet displaying quickly how to resolve psionic clashes, as well another sheet which contains images that can be cut out and used as cards to allow those in psionic combat to quickly and easily choose their modes.
+Psionic combat is intended to be a fun and unique system to engage your players  and lies at the heart of the fun of playing a psionicist (any character that has specific psionic powers, e.g. a psion or adept). Creating a unique system was essential to making the psion feel like more than just another type of wizard. Psionic combat involves 3 distinct parts that operate together:  psionic modes, psionic clashes, and contact.  To assist with this, I have provided a separate PDF that contains an info sheet displaying quickly how to resolve psionic clashes, as well as another sheet which contains images that can be cut out and used as cards to allow those in psionic combat to quickly and easily choose their modes.
 
 ### Psionic Modes
-Psionic modes represent training in a specific style of thought structure.  As two telepaths engage in a contest of will, without a psionic mode to support their individual thoughts, the two minds would simply merge together briefly, and any motivations to enter into the contest in the first place get lost in the confusion.  Psionic modes provide a mechanism for the individuals involved to retain some elements of their identity during the struggle.
+Psionic modes represent training in a specific style of thought structure.  As two telepaths engage in a contest of will, their minds would simply merge together briefly without a psionic mode to support their individual thoughts.  Any motivations to enter into the contest in the first place would get lost in the confusion.  Psionic modes provide a mechanism for the individuals involved to retain some elements of their identity during the struggle.
 <p>Psions and adepts both gain psionic modes as part of leveling.  Additionally, they have a primary mechanism *psychic probe* to generate psionic clashes, although other methods may exist.</p>
-<p>Depending on the level of integration of psionics into your world, you have different approaches for integrating psionic modes, and dealing with psionic clashes, for non-psionic characters.  For example, in my world which is based in the DarkSun setting where psionics are extremely prevalent, I have chosen to give all players two psionic modes to start with.  For non-psionic classes, they will start with two modes randomly (psions and adepts can choose their modes).  These characters are expected to frequently come into contact with psionic wielding enemies and should have some measure of defense against them.  However, non-psionic characters do not start with any abilities that allow them to generate psionic clashes, so their modes are for defense purposes only. If those non-psionic players wish to further engage with psionics, they must then either multi-class or pick up a feat which extends their psychic capabilities.</p>
+<p>Depending on the level of integration of psionics into your world, you have different approaches for integrating psionic modes and dealing with psionic clashes for non-psionic characters.  For example, in my world, which is based in the DarkSun setting where psionics are extremely prevalent, I have chosen to give all players two psionic modes to start with.  For non-psionic classes, they will start with two modes randomly (psions and adepts can choose their modes).  These characters are expected to frequently come into contact with psionic wielding enemies and should have some measure of defense against them.  However, non-psionic characters do not start with any abilities that allow them to generate psionic clashes, so their modes are for defense purposes only. If those non-psionic players wish to further engage with psionics, they must then either multi-class or pick up a feat which extends their psychic capabilities.</p>
 <p>Consider a different approach: imagine a world where psionics are extremely rare.  In such a case, I would not give non-psionic characters any modes at all.  This has ramifications for how the psionic clashes below are resolved, and you will need to choose a method there that you are comfortable with.</p>
 <p>There are seven psionic modes detailed below.</p>
 
 #### Ego Projection
-Represented by the **plus** symbol, *ego projection* is an enhanced version of our ordinary sense of self and rationality, magnified to an extreme.  This can have the effect of avoiding the confusion that some modes .
+Represented by the **plus** symbol, *ego projection* is an enhanced version of our ordinary sense of self and rationality, magnified to an extreme.  This can have the effect of avoiding the confusion that some modes . [something missing here?]
 
 ```
 ```
 
 #### Empty Mind
-Represented by the **circle** symbol, *empty mind* clears the mind of all activity.  This generally has the effect of pulling the ground out beneath some of the more aggressive modes, but can be weak against other forms of disruptions.
+Represented by the **circle** symbol, *empty mind* clears the mind of all activity.  This generally has the effect of pulling the ground out beneath some of the more aggressive modes, but it can be weak against other forms of disruptions.
 
 #### Feedback Loop
 Represented by the **spiral** symbol, *feedback loop* creates an echo chamber in the mind that amplifies incoming signals.  These mental feedback loops can cause some modes to attack themselves, but *feedback loop* works best on modes that do not present a strong signal and are thus unprepared for what *feedback loop* can generate.
@@ -435,23 +435,23 @@ Represented by the **three wavy lines** symbol, *synaptic static* is halfway bet
 \page
 
 ### Psionic Clashes
-A psionic clash is a contest between two opposing psionic characters, specifically it tends to occur when telepathy is involved. Every psionic spell that requires contact initiates a psionic clash if the caster has not already established contact against the target and if that target is unwilling.  If the target is willing to undergo the effects of a telepathic spell, contact is considered to exist for the purposes of that spell.
-<p>Whoever wins the psionic clash establishes contact with the target.  If, during the casting of a spell requiring contact, a psionic clash occurs and the spell caster does not win, the spell fails and the caster spends their action, however they do not pay the PSI cost for this attempted spell. Additionally, the *psionic probe* cantrip's primary purpose is to generate a psionic clash, although it does have an effect if contact has already been made.  Finally the psychokineticist's ability *burst of will* can be used to create a psionic clash.
-<p>During a psionic clash, each character's controller selects, in secret, one of their available psionic modes.  When the controllers are ready, the modes are revealed, and resolved.  Optionally, to speed things up, any rolls that would need to be made as a result of success should be done at this time.</p>
-<p>To resolve the psionic clash, see the second pdf for a visual chart for a chart that easily shows who wins and who loses.  But to briefly describe it you can follow the below mechanism.  A given mode will beat the three modes to the right of it on the following list, and lose to the three prior to it.  The end of the list wraps around to the front of the list to form a circular structure.  If a mode is pitted against itself no victory or loss takes place (and thus no contact is established).  Here is the resolution order:</p>
+A psionic clash is a contest between two opposing psionic characters; specifically it tends to occur when telepathy is involved. Every psionic spell that requires contact initiates a psionic clash if the caster has not already established contact against the target and if that target is unwilling.  If the target is willing to undergo the effects of a telepathic spell, contact is considered to exist for the purposes of that spell.
+<p>Whoever wins the psionic clash establishes contact with the target.  If, during the casting of a spell requiring contact, a psionic clash occurs and the spell caster does not win, the spell fails and the caster spends their action; however they do not pay the PSI cost for this attempted spell. Additionally, the *psionic probe* cantrip's primary purpose is to generate a psionic clash, although it does [not?] have an effect if contact has already been made.  Finally the psychokineticist's ability, *burst of will*, can be used to create a psionic clash.
+<p>During a psionic clash, each character's controller secretly selects one of their available psionic modes.  When the controllers are ready, the modes are revealed and resolved.  Optionally, to speed things up, any rolls that would need to be made as a result of success should be done at this time.</p>
+<p>To resolve the psionic clash, see the second pdf for a visual chart that easily shows who wins and who loses.  To briefly describe it, you can follow the below mechanism.  A given mode will beat the three modes to the right of it on the following list and lose to the three prior to it.  The end of the list wraps around to the front of the list to form a circular structure.  If a mode is pitted against itself no victory or loss takes place (and thus no contact is established).  Here is the resolution order:</p>
   
    * *feedback loop* → *kinetic burst* → *synaptic static* → *empty mind* → *iron will* → *id insinuation* → *ego projection* →
   
 <p>For example, if during a clash the two modes revealed are *ego projection* and *synaptic static*, the character using *ego projection* would win.  If that player had instead picked *iron will*, then the player who used *synaptic static* would win the contest.</p>
 <p>Among the participants, whoever is the winner of the psionic clash establishes contact against the loser.</p>
-<p>Advantage and disadvantage.  This can easily be done for psionic clashes by having the advantaged party choosing two modes instead of one, then using whichever one is most advantageous.  In general I probably try to avoid this happening too often in my games, as someone who smartly chooses their modes has a fairly large advantage at this point.</p>
-<p>Optional rule to speed things up for large groups (for example if a telepathic spell hits several targets).  Choose how many groups are affected, it could be 1 group that includes everybody, or it could be several groups of similar creatures.  The point here is to avoid doing a clash for each individual creature.  Then, for each group chosen in the above method, have the caster choose one mode to attack with.</p>
+<p>Advantage and disadvantage:  This can easily be done for psionic clashes by having the advantaged party choosing two modes instead of one, then using whichever one is most advantageous.  In general, I probably try to avoid this happening too often in my games, as someone who smartly chooses their modes has a fairly large advantage at this point.</p>
+<p>Optional rule to speed things up for large groups (for example if a telepathic spell hits several targets):  Choose how many groups are affected.  It could be one group that includes everybody, or it could be several groups of similar creatures.  The point here is to avoid doing a clash for each individual creature.  Then, for each group chosen in the above method, have the caster choose one mode to attack with.</p>
 
 ```
 ```
 
 ### Contact
-Contact is a condition that represents the psychic influence of one individual over another.  In the language of contact, there are two parties involved.  The *contacter* is the individual who posses influence over the other.  The *contactee* is the individual who is subject to that influence.  When the condition occurs, the contacter is said to *establish contact* against the contactee.  That contact may later be *spent*, i.e. the condition is removed by some ability the contacter has that allows them to do so.
+Contact is a condition that represents the psychic influence of one individual over another.  In the language of contact, there are two parties involved.  The *contacter* is the individual who possesses influence over the other.  The *contactee* is the individual who is subject to that influence.  When the condition occurs, the contacter is said to *establish contact* against the contactee.  That contact may later be *spent* (i.e. the condition is removed by some ability the contacter has that allows them to do so).
 <p>Contact can be used to cause a moment of hesitation or distraction in the contactee.  At any time, the contacter may spend the contact to give the contacter advantage on any one attack roll, savings throw, or ability check where the contactee is involved.  Similarly, it may be spent to give the contactee disadvantage on any one attack roll, savings throw, or ability check where the contacter is involved.</p>
 <p>Most telepathic spells require contact.  If that character already has established contact with the target, then that contact is spent.  However, if the character does not have contact, they have the opportunity to enter into a psionic conflict.  If they win, the contact is spent on the spell.  If the caster does not win the conflict, the action is failed, but no PSI points are spent.  Telepathic spells that require contact and otherwise specify an attack roll, savings throw or ability check are instead automatically successful.</p>
 <p>The contact condition cannot be applied from the same contacter to the same contactee more than once simultaneously.  Contact has no requirement of PSI or concentration to maintain, but if the contacter is not within 60' of the contactee for more than a minute, the condition is removed.</p>
@@ -460,7 +460,7 @@ Contact is a condition that represents the psychic influence of one individual o
 In the interest in time, when a telepathic spell affects multiple targets, there are a few alternate methods to assist.  The below assumes that all the entities have no special telepathic powers.  For entities which do posses enhanced telepathics, resolve the psionic combat as normal.  For example, if a group of 3 untrained thri-kreen and 1 thri-kreen adept were to come under group attack, resolve the psionic combat with the adept as normal, and use one of the below methods for the 3 untrained thri-kreen.
 
 #### Method One
-Choose one card at random from all seven possible modes.  This represents the collective unconcious of the group as its minds awaken and interfere with each other chaotically.
+Choose one card at random from all seven possible modes.  This represents the collective unconscious of the group as its minds awaken and interfere with each other chaotically.
 
 #### Method Two
 As above, but instead of choosing a mode randomly, choose one mode from a pool of all known psionic modes by any member of the group.
@@ -476,20 +476,20 @@ Use method two, but break large groups into smaller groups whose members are sim
 # Adapting Psionics
 
 ## Psionics in a non-psionic world
-When trying to integrate the psion and adept into a world where psionics is not ubiquitous, there are some significant challenges.  This class is built around frequent usage of the model of psionic combat provided.  Without psionic combat, a lot of the reason to play with psionics is lost.  Additionally, if too many changes to psionic combat are made, many of the subclasses lose their value.  While you could home-brew them to fix those issues, in my opinion you are better off using a lightly re-skinned version of the sorcerer or wizard, and just position it fictionally as a psionicist.  However, I was able to come up with one approach which I think allows the class to function in a way that:
+When trying to integrate the psion and adept into a world where psionics is not ubiquitous, there are some significant challenges.  This class is built around frequent usage of the model of psionic combat provided.  Without psionic combat, a lot of the reason to play with psionics is lost.  Additionally, if too many changes to psionic combat are made, many of the subclasses lose their value.  While you could home-brew them to fix those issues, in my opinion you are better off using a lightly re-skinned version of the sorcerer or wizard and just positioning it fictionally as a psionicist.  However, I was able to come up with one approach which I think allows the class to function in a way that:
   * psionic players have fun with psionic combat and the class as written
   * non-psionic players aren't put off by it
   * and DMs do not need to do a lot of prep or background work in order to run it
     
 Here is the rule:
 <div class='descriptive'>
-  When a non-psionic character enters into a psionic clash, their untrained mind naturally forms one of the seven psionic modes at random, that character's controller should pick a mode at random from the list of all available modes for every clash they enter into.  However, if the non-psionicist wins the psionic clash, they do not establish contact with the psionicist as normal because only those with some psionic skill are capable of doing so.
+  When a non-psionic character enters into a psionic clash, their untrained mind naturally forms one of the seven psionic modes at random; that character's controller should pick a mode at random from the list of all available modes for every clash they enter into.  However, if the non-psionicist wins the psionic clash, they do not establish contact with the psionicist as normal because only those with some psionic skill are capable of doing so.
 </div>
 
-This rule does make psionic combat a little more difficult for the psionic participant.  This is because they can no longer look at past behavior of their opponent to predict their future behavior.  This is alleviated mostly by the fact that they never have give contact to the non-psionicist.
+This rule does make psionic combat a little more difficult for the psionic participant.  This is because they can no longer look at past behavior of their opponent to predict their future behavior.  This is alleviated mostly by the fact that they never give contact to the non-psionicist.
 
 ### Spell-casting ability
-I chose charisma for my setting, but this could easily be wisdom as well.  In my setting Warlocks use intelligence, and there are no bards or paladins, so I felt like I needed another charisma based class to round things out.  Thematically, charisma does fit with the manipulative nature of telepathic spells.  On the other hand, "Willpower" as a savings throw is more closely related to wisdom, and allows it to fit together more in line with the monk, who also uses wisdom.
+I chose charisma for my setting, but this could easily be wisdom as well.  In my setting Warlocks use intelligence, and there are no bards or paladins.  I felt like I needed another charisma based class to round things out.  Thematically, charisma does fit with the manipulative nature of telepathic spells.  On the other hand, "Willpower" as a savings throw is more closely related to wisdom and allows it to fit together more in line with the monk, who also uses wisdom.
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 4 | Adapting Psionics</div>
@@ -501,7 +501,7 @@ I chose charisma for my setting, but this could easily be wisdom as well.  In my
 The rules for concentration are the same for casting psionic spells that require concentration.
 
 ## Multi-classing
-Characters add all their PSI points together from all their psionic classes to form one pool of PSI points.  Psionic spells are completely different than their magical counterpart and thus, an individual multi-classed in such a way could have two copies known of the same spell, one psionic and one magical.
+Characters add all their PSI points together from all their psionic classes to form one pool of PSI points.  Psionic spells are completely different than their magical counterpart, and thus an individual multi-classed in such a way could have two copies known of the same spell: one psionic and one magical.
 
 ## Skills
 The skill sections above for the psion and adept make reference to the *culture* and *parapsychology* skills.  In my home-brew version of DarkSun, the *history* and *religion* skills are not present, and culture has filled the gap they left behind.  If you are using this psionics home-brew in a world where those are present, it would be fitting to swap *culture* for *history*.
@@ -509,7 +509,7 @@ The skill sections above for the psion and adept make reference to the *culture*
 Additionally, I have created a *parapsychology* skill to function as an analogue of *arcana* for wizards and *religion* for clerics.  Although its function should be pretty obvious, I will provide its definition here.
 <br>
 <br>
-<p>***Parapsychology.*** Your Intelligence (Parapsychology) check measures your ability to recall lore about psionics, psionic items, symbols, monsters, and traditions, and the function of the mind, and the interpretation of dreams.</p>
+<p>***Parapsychology.*** Your Intelligence (Parapsychology) check measures your ability to recall lore about psionics, psionic items, symbols, monsters, traditions, the function of the mind, and the interpretation of dreams.</p>
 <br>
 <p>If you wish to avoid introducing another skill to your game, this material could reasonably be handled with the *arcana* skill.</p>
 
@@ -519,10 +519,10 @@ Additionally, I have created a *parapsychology* skill to function as an analogue
 Due to the prevalence of psionics in my setting, I also allow the "psychic" category of damage types to be chosen here.
 
 ### Mage Slayer
-Casting a psionic spell still counts as casting a spell (both generally, and for specifically for this feat).
+Casting a psionic spell still counts as casting a spell (both generally and specifically for this feat).
 
 ### Psionic Initiate
-Similar to Magic Initiate, but only for psionic spells.  You follow the rules for casting spells as per the Psion class, and gain 1 PSI with which to cast the level 1 spell chosen.  Charisma is the ability modifier for this spell.<br>
+Similar to Magic Initiate, but only for psionic spells.  You follow the rules for casting spells as per the Psion class and gain 1 PSI with which to cast the level 1 spell chosen.  Charisma is the ability modifier for this spell.<br>
 **Note:** I have created this as a separate feat so that players could take both initiate feats if so desired.
 
 ```
@@ -698,10 +698,10 @@ ___
 - **Duration:** Instantaneous
 - **Requires:** Contact
 
-Enter into a psionic clash with a target you can see within range, unless you have already established contact with that target.  If you win the clash, or have already established contact, you deal 1d6 psychic damage to your target.
+Enter into a psionic clash with a target you can see within range, unless you have already established contact with that target.  If you win the clash or have already established contact, you deal 1d6 psychic damage to your target.
 
 #### Psychonistry
-This spell can be used to generate minor psionic effects, similar in nature to *presdidigitation* or *thaumaturgy*.  The DM will adjudicate the exact effects possible, but some examples might be: poke someone, give an object a small push, open and rattle windows or curtains, cause a small effect in the mind of an individual such as a brief sensation, emotion, or thought that is obviously psionic in nature, getting a brief glimpse of a nearby hidden object, or hearing a word or short phrase from across the room, glimpsing a minor characteristic of an event in the very near future, etc.
+This spell can be used to generate minor psionic effects, similar in nature to *presdidigitation* or *thaumaturgy*.  The DM will adjudicate the exact effects possible, but some examples might be: poke someone, give an object a small push, open and rattle windows or curtains, cause a small effect in the mind of an individual such as a brief sensation, emotion, or thought that is obviously psionic in nature, getting a brief glimpse of a nearby hidden object, hearing a word or short phrase from across the room, glimpsing a minor characteristic of an event in the very near future, etc.
 
 #### Detect Psionics
 Equivalent to detect magic, but for psionics.
