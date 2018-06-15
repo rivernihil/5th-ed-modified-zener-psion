@@ -407,7 +407,7 @@ Psionic modes represent training in a specific style of thought structure.  As t
 <p>There are seven psionic modes detailed below.</p>
 
 #### Ego Projection
-Represented by the **plus** symbol, *ego projection* is an enhanced version of our ordinary sense of self and rationality, magnified to an extreme.  This can have the effect of avoiding the confusion that some modes . [something missing here?]
+Represented by the **plus** symbol, *ego projection* is an enhanced version of our ordinary sense of self and rationality, magnified to an extreme.  This can have the effect of avoiding the confusion that some modes create, but it falters against more subtle modes.
 
 ```
 ```
