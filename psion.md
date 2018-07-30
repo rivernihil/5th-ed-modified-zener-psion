@@ -188,7 +188,7 @@ Starting at 2nd level, you can glimpse into the near future and detect the psion
 Beginning at 6th level, casting clairsentient spells comes so easily to you that it expends only a fraction of your psionic power.  After casting a spell in the clairsentience discipline, you regain 1 less PSI than the level of the spell cast, up to a maximum of 5.
 
 #### Precognition
-Starting at 10th level, you can spend your contact to turn any attack roll, ability check, or savings throw relating to that creature from a success to a failure or vice versa.  You may use this ability once per short rest.
+Starting at 10th level, as a bonus action, you may turn any one attack roll, ability check, or savings throw from a success to a failure or vice versa.  You may use this ability once per short rest.
 
 #### Mind's Eye
 Starting at 14th level, you can use both Preternatural Insight and Precognition twice per short rest instead of once.
@@ -203,13 +203,13 @@ The least subtle of the psionic disciplines, psychokineticists use the power of 
 Starting at 2nd level, when you cast *eldritch blast*, add your Charisma modifier to the damage it deals on a hit.
 
 #### Kinetic Shield
-Starting at 6th level, when you cast *shield* as a reaction, after gaining the +5 bonus for the triggering attack, you may dismiss the remaining duration to cause *shield* to additionally gain the effect of *eldritch blast* and target the source of the original triggering attack.
+Starting at 6th level, when you cast *shield* as a reaction, after gaining the +5 bonus for the triggering attack, you may forgo the remaining duration of *shield* to cast *eldritch blast* as part of the reaction.
 
 #### Burst of Willpower
-Starting at 10th level, you can spend your contact to cast *eldritch blast* on that creature as a bonus action.  Additionally, whenever you cast *eldritch blast*, you may pay 1 PSI to enter into a psionic clash with one of its targets.
+Starting at 10th level, whenever you cast a telepathic spell affecting one or more enemies, you can cast *eldritch blast* as a bonus action.
 
 #### Mind Over Matter
-Starting at 14th level, you gain the ability to cast or dismiss *levitation* as an action.  This version of *levitation* has no duration.
+Starting at 14th level, you gain the ability to cast or dismiss *levitation* as a bonus action for free.
 
 ### Telepathy
 Perhaps the most iconic of the psionic disciplines is Telepathy.  Telepathy involves using one's mind to interface directly with that of another.  This can be used for simple communication, but nearly everyone is afraid of the terrors of mind control.  Criminals often complain that they were under the effects of telepathic domination, but unless this can be proved, such claims are meaningless.  
@@ -217,8 +217,8 @@ Perhaps the most iconic of the psionic disciplines is Telepathy.  Telepathy invo
 #### Telepathic Field
 Starting at 2nd level, when an ally within 60' of you enters into a psionic clash, you may use your reaction to take their place instead.
 
-#### Split Brain
-Starting at 6th level, when you cast *psionic probe*, you may target an additional creature.  At 10th level, you may target 3 creatures, and at 14th level, you may target 4 creatures.
+#### Memory Manipulation
+Starting at 6th level, when you successfully cast a telepathic spell on a creature, you may additionally alter their memory so that when the spell ends they do not recall being affected.  Depending on the conditions under which they were affected by this memory loss, they may be aware that their mind has been tampered with, and who may or may not have been a likely candidate for that manipulation.
 
 #### Native Telepath
 Starting at 6th level, you can communicate telepathically with any creature you can see or any willing creature you are aware of as long as you are on the same plane of existence.  You don't need to share a language with that creature, but it must be able to understand at least one language.
@@ -227,11 +227,11 @@ Starting at 6th level, you can communicate telepathically with any creature you 
 <div class='footnote'>Chapter 1 | The Psion</div>
 \page
 
-#### Memory Manipulation
-Starting at 10th level, when you use a telepathic spell on a creature, you may spend the contact to prevent them from remembering anything from the initiation of contact until the spell ends.  While spellbound, if significant changes in their environment occur, they may realize that they have been charmed when the spell ends, and depending on the events leading up to the point of contact they may be able to surmise who was responsible, but they will otherwise have no direct memory of their time spent under the effects of the spell.
+#### Split Brain
+Starting at 10th level, when you cast a telepathic spell as your action, you may cast an additional telepathic spell as a bonus action.
 
 #### Telepathic Dominion
-Starting at 14th level, as a bonus action, you can spend your contact to attempt to dominate that creature without paying any additional PSI.  That creature makes a Wisdom savings throw, and if it fails, it is charmed by you and must follow your commands for up to 10 minutes or as long as you maintain concentration on this effect.  It makes additional Wisdom saving throws whenever it takes damage, and otherwise this effect behaves like the appropriate *dominate beast/monster/person* spell.  You may use this ability once per short rest.
+Starting at 14th level, as a bonus action, you can attempt to dominate an NPC without paying any additional PSI.  If you succeed in a *psionic clash* with the target, it is charmed by you and must follow your commands for up to 10 minutes or until you stop maintaining concentration on this effect.  It makes additional Wisdom saving throws whenever it takes damage, and otherwise this effect behaves like the appropriate *dominate beast/monster/person* spell.  You may use this ability once per short rest.
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 1 | The Psion</div>
