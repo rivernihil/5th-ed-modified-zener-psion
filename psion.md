@@ -1,3 +1,12 @@
+<style>
+    .phb .classTable {
+        border-image-repeat: stretch;
+    }
+    .phb .descriptive {
+        border-image-repeat: stretch;
+    }
+</style>
+
 # Introduction
 Thank you for taking the time to look at this home-brew implementation of psionics for 5th edition.  The psion and adept classes inside use a form of psionic combat which was designed to be used in a world where psionics are ubiquitous, where virtually every intelligent creature has the ability to defend themselves psionically, and many also have methods to fight back or initiate psionic combat of their own.
 <p>With this document you will find the following:</p>
@@ -47,7 +56,7 @@ Clad in a dark colored robe of the Tyrian bureaucracy, a bald and tattooed dwarf
 <div class='classTable wide'>
 ##### The Psion
 | Level | Proficiency Bonus | Psionic Points (PSI) | Psionic Modes | Features | Cantrips Known | Spells Known | Max Spell Level |
-|:-----:|:--:|:---:|:-:|:------------------------------------------------|:--:|:--:|:--:|
+|:-----:|:--:|:---:|:--:|:------------------------------------------------|:--:|:--:|:--:|
 | 1st   | +2 | 2   | +0 | Spell Casting, Psionic Recovery                 | 4  | 2  | 1  |
 | 2nd   | +2 | 4   | +1 | Psionic Discipline                              | 4  | 3  | 1  |
 | 3rd   | +2 | 9   | +1 | —                                               | 4  | 4  | 2  |
@@ -89,7 +98,7 @@ The most important question to answer when creating a psion is how you attained 
 ```
 
 ### Quick Build
-You can make a psion quickly by following these suggestions.  First, Charisma should be your highest ability score, followed by Wisdom.  Second, choose any background.  Third, choose *iron will* and *kinetic burst* as your known psionic modes.  Finally, choose the following cantrips (in addition to the required *psychic probe*): *eldritch blast*, *mage hand*, and *friends*, along with the 1st-level spells *charm person* and *shield*.
+You can make a psion quickly by following these suggestions.  First, Charisma should be your highest ability score, followed by Wisdom.  Second, choose any background.  Third, choose *iron will* and *kinetic burst* as your known psionic modes.  Finally, choose the following cantrips: *eldritch blast*, *mage hand*, *message*, and *friends*, along with the 1st-level spells *charm person* and *shield*.
 
 ## Class Features
 As a psion, you gain the following class features.
@@ -118,7 +127,7 @@ You start with the following equipment, in addition to the equipment granted by 
 As a result of training with a mentor, attending a school, or through natural talent, you have the ability to cast psionic spells.  See the appropriate rules for casting spells in general or your spell list at the end of the class description.
 
 #### Cantrips
-At 1st level, you know 4 cantrips, one of which must be *psychic probe*. The remaining 3 are your choice from the psion spell list.  You learn additional psion cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Psion table.
+At 1st level, you know 4 cantrips from the psion spell list.  You learn additional psion cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Psion table.
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 1 | The Psion</div>
@@ -188,7 +197,7 @@ Starting at 2nd level, you can glimpse into the near future and detect the psion
 Beginning at 6th level, casting clairsentient spells comes so easily to you that it expends only a fraction of your psionic power.  After casting a spell in the clairsentience discipline, you regain 1 less PSI than the level of the spell cast, up to a maximum of 5.
 
 #### Precognition
-Starting at 10th level, you can spend your contact to turn any attack roll, ability check, or savings throw relating to that creature from a success to a failure or vice versa.  You may use this ability once per short rest.
+Starting at 10th level, as a bonus action, you may turn any one attack roll, ability check, or savings throw from a success to a failure or vice versa.  You may use this ability once per short rest.
 
 #### Mind's Eye
 Starting at 14th level, you can use both Preternatural Insight and Precognition twice per short rest instead of once.
@@ -203,13 +212,13 @@ The least subtle of the psionic disciplines, psychokineticists use the power of 
 Starting at 2nd level, when you cast *eldritch blast*, add your Charisma modifier to the damage it deals on a hit.
 
 #### Kinetic Shield
-Starting at 6th level, when you cast *shield* as a reaction, after gaining the +5 bonus for the triggering attack, you may dismiss the remaining duration to cause *shield* to additionally gain the effect of *eldritch blast* and target the source of the original triggering attack.
+Starting at 6th level, when you cast *shield* as a reaction, after gaining the +5 bonus for the triggering attack, you may forgo the remaining duration of *shield* to cast *eldritch blast* as part of the reaction.
 
 #### Burst of Willpower
-Starting at 10th level, you can spend your contact to cast *eldritch blast* on that creature as a bonus action.  Additionally, whenever you cast *eldritch blast*, you may pay 1 PSI to enter into a psionic clash with one of its targets.
+Starting at 10th level, whenever you cast a telepathic spell affecting one or more enemies, you can cast *eldritch blast* as a bonus action.
 
 #### Mind Over Matter
-Starting at 14th level, you gain the ability to cast or dismiss *levitation* as an action.  This version of *levitation* has no duration.
+Starting at 14th level, you gain the ability to cast or dismiss *levitation* as a bonus action for free.
 
 ### Telepathy
 Perhaps the most iconic of the psionic disciplines is Telepathy.  Telepathy involves using one's mind to interface directly with that of another.  This can be used for simple communication, but nearly everyone is afraid of the terrors of mind control.  Criminals often complain that they were under the effects of telepathic domination, but unless this can be proved, such claims are meaningless.  
@@ -217,8 +226,8 @@ Perhaps the most iconic of the psionic disciplines is Telepathy.  Telepathy invo
 #### Telepathic Field
 Starting at 2nd level, when an ally within 60' of you enters into a psionic clash, you may use your reaction to take their place instead.
 
-#### Split Brain
-Starting at 6th level, when you cast *psionic probe*, you may target an additional creature.  At 10th level, you may target 3 creatures, and at 14th level, you may target 4 creatures.
+#### Memory Manipulation
+Starting at 6th level, when you successfully cast a telepathic spell on a creature, you may additionally alter their memory so that when the spell ends they do not recall being affected.  Depending on the conditions under which they were affected by this memory loss, they may be aware that their mind has been tampered with, and who may or may not have been a likely candidate for that manipulation.
 
 #### Native Telepath
 Starting at 6th level, you can communicate telepathically with any creature you can see or any willing creature you are aware of as long as you are on the same plane of existence.  You don't need to share a language with that creature, but it must be able to understand at least one language.
@@ -227,11 +236,11 @@ Starting at 6th level, you can communicate telepathically with any creature you 
 <div class='footnote'>Chapter 1 | The Psion</div>
 \page
 
-#### Memory Manipulation
-Starting at 10th level, when you use a telepathic spell on a creature, you may spend the contact to prevent them from remembering anything from the initiation of contact until the spell ends.  While spellbound, if significant changes in their environment occur, they may realize that they have been charmed when the spell ends, and depending on the events leading up to the point of contact they may be able to surmise who was responsible, but they will otherwise have no direct memory of their time spent under the effects of the spell.
+#### Split Brain
+Starting at 10th level, when you cast a telepathic spell as your action, you may cast an additional telepathic spell as a bonus action.
 
 #### Telepathic Dominion
-Starting at 14th level, as a bonus action, you can spend your contact to attempt to dominate that creature without paying any additional PSI.  That creature makes a Wisdom savings throw, and if it fails, it is charmed by you and must follow your commands for up to 10 minutes or as long as you maintain concentration on this effect.  It makes additional Wisdom saving throws whenever it takes damage, and otherwise this effect behaves like the appropriate *dominate beast/monster/person* spell.  You may use this ability once per short rest.
+Starting at 14th level, as a bonus action, you can attempt to dominate an NPC without paying any additional PSI.  If you succeed in a *psionic clash* with the target, it is charmed by you and must follow your commands for up to 10 minutes or until you stop maintaining concentration on this effect.  It makes additional Wisdom saving throws whenever it takes damage, and otherwise this effect behaves like the appropriate *dominate beast/monster/person* spell.  You may use this ability once per short rest.
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 1 | The Psion</div>
@@ -241,26 +250,26 @@ Starting at 14th level, as a bonus action, you can spend your contact to attempt
 ##### The Adept
 | Level | Proficiency Bonus | PSI Blades | PSI Points | Psionic Modes | Features |
 |:-----:|:-----------------:|:----------:|:----------:|:-------------:|:---------|
-| 1st   | +2 | 1d4  | -  | +0 | Unarmored Defense, PSI Blades                     |
-| 2nd   | +2 | 1d4  | 2  | +1 | PSI Points, Unarmored Movement, Psychic Probe     |
-| 3rd   | +2 | 1d4  | 3  | +1 | Adept Tradition, Deflect Missiles                  |
-| 4th   | +2 | 1d4  | 4  | +1 | Ability Score Improvement, Slow Fall              |
-| 5th   | +3 | 1d6  | 5  | +1 | Extra Attack, Stunning Strike                     |
-| 6th   | +3 | 1d6  | 6  | +1 | PSI-Empowered Strikes, Adept Tradition Feature    |
-| 7th   | +3 | 1d6  | 7  | +1 | Evasion, Stillness of Mind                        |
-| 8th   | +3 | 1d6  | 8  | +2 | Ability Score Improvement                         |
-| 9th   | +4 | 1d6  | 9  | +2 | Unarmored Movement Improvement                    |
-| 10th  | +4 | 1d6  | 10 | +2 | Purity of Body                                    |
-| 11th  | +4 | 1d8  | 11 | +2 | Adept Tradition Feature                           |
-| 12th  | +4 | 1d8  | 12 | +2 | Ability Score Improvement                         |
-| 13th  | +5 | 1d8  | 13 | +2 | Native Telepath                                   |
-| 14th  | +5 | 1d8  | 14 | +2 | Harmonic Essence                                  |
-| 15th  | +5 | 1d8  | 15 | +3 | Timeless Body                                     |
-| 16th  | +5 | 1d8  | 16 | +3 | Ability Score Improvement                         |
-| 17th  | +6 | 1d10 | 17 | +3 | Adept Tradition Feature                           |
-| 18th  | +6 | 1d10 | 18 | +3 | Empty Body                                        |
-| 19th  | +6 | 1d10 | 19 | +3 | Ability Score Improvement                         |
-| 20th  | +6 | 1d10 | 20 | +3 | Perfect Self                                      |
+| 1st   | +2 | 1d4  | -  | +0 | Unarmored Defense, PSI Blades                    |
+| 2nd   | +2 | 1d4  | 2  | +1 | PSI Points, Unarmored Movement                   |
+| 3rd   | +2 | 1d4  | 3  | +1 | Adept Tradition, Deflect Missiles                |
+| 4th   | +2 | 1d4  | 4  | +1 | Ability Score Improvement, Slow Fall             |
+| 5th   | +3 | 1d6  | 5  | +1 | Extra Attack, Stunning Strike                    |
+| 6th   | +3 | 1d6  | 6  | +1 | PSI-Empowered Strikes, Adept Tradition Feature   |
+| 7th   | +3 | 1d6  | 7  | +1 | Evasion, Stillness of Mind                       |
+| 8th   | +3 | 1d6  | 8  | +2 | Ability Score Improvement                        |
+| 9th   | +4 | 1d6  | 9  | +2 | Unarmored Movement Improvement                   |
+| 10th  | +4 | 1d6  | 10 | +2 | Purity of Body                                   |
+| 11th  | +4 | 1d8  | 11 | +2 | Adept Tradition Feature                          |
+| 12th  | +4 | 1d8  | 12 | +2 | Ability Score Improvement                        |
+| 13th  | +5 | 1d8  | 13 | +2 | Native Telepath                                  |
+| 14th  | +5 | 1d8  | 14 | +2 | Harmonic Essence                                 |
+| 15th  | +5 | 1d8  | 15 | +3 | Timeless Body                                    |
+| 16th  | +5 | 1d8  | 16 | +3 | Ability Score Improvement                        |
+| 17th  | +6 | 1d10 | 17 | +3 | Adept Tradition Feature                          |
+| 18th  | +6 | 1d10 | 18 | +3 | Empty Body                                       |
+| 19th  | +6 | 1d10 | 19 | +3 | Ability Score Improvement                        |
+| 20th  | +6 | 1d10 | 20 | +3 | Perfect Self                                     |
 </div>
 
 # Adept
@@ -331,10 +340,7 @@ Renamed from *Martial Arts* in PHB.  PSI Blades allow the adept to create psycho
 Renamed from *Ki* in PHB.  Use Charisma modifier instead of Wisdom for PSI save DC
 
 #### Psionic Modes
-The number of additional Psionic Modes known above the base known by all (2).  When you create a 1st-level adept, you choose your known psionic modes instead of picking them randomly.
-
-### Psychic Probe
-At 2nd level, you gain the *psychic probe* cantrip if you don't already have it.
+The number of additional Psionic Modes known above the base known by everyone (2).  When you create a 1st-level adept, you choose your known psionic modes instead of picking them randomly.
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 2 | The Adept</div>
@@ -396,21 +402,31 @@ This doesn't really fit thematically as writing is extremely uncommon on Athas. 
 <div class='footnote'>Chapter 2 | The Adept</div>
 \page
 
-# Psionic Combat
-Psionic combat is intended to be a fun and unique system to engage your players  and lies at the heart of the fun of playing a psionicist (any character that has specific psionic powers, e.g. a psion or adept). Creating a unique system was essential to making the psion feel like more than just another type of wizard. Psionic combat involves 3 distinct parts that operate together:  psionic modes, psionic clashes, and contact.  To assist with this, I have provided a separate PDF that contains an info sheet displaying quickly how to resolve psionic clashes, as well as another sheet which contains images that can be cut out and used as cards to allow those in psionic combat to quickly and easily choose their modes.
+# Psionic Magic
+Psionic spells have the potential to work much differently from those of standard magic.  There are several factors to consider, especially when considering how the two different fields interact.  There are roughly two different approaches to their interaction.  ...Counter-spells, anti-magic shells, dispel magic...</p>
+<p>The first approach assumes that psionics and magic are two completely separate systems that do not interact except at the physical level.</p>
+<p>The second approach privledges the power of magic to fundamentally alter/control the fabric of reality, and gives it power over psionics.  Magic may use or incorporate pieces of psionics, and psionics itself might be considered simply a very specialized form of magic.
+Counter-spells, anti-magic shells, dispel magic.</p>
+
+### Casting Psionic Spells
+Psionics generally follow all the rules for casting spells, such as the rules for actions, choosing targets, casting time, duration, etc.  However, there are 3 key differences for psionic spells:</p>
+<p>Psionic spells use PSI points instead of spell slots.  The PSI points for a spell are spent when the spell is cast.</p>
+<p>The second key difference between psionic spells and normal spells is that psionic spells never require material, somatic, or verbal components.  That is not to say that gestures and sounds never accompany the casting of psionic magic, only that specific gestures and sounds are not.</p>
+<p>The third and largest difference is the resolution of telepathic spells.  This is detailed below in the section dealing with psionic combat.</p>
+
+## Psionic Combat
+Psionic combat is intended to be a fun and unique system to engage your players  and lies at the heart of the fun of playing a psionicist (any character that has specific psionic powers, e.g. a psion or adept). Creating a unique system was essential to making the psion feel like more than just another type of wizard. Psionic combat involves 2 distinct parts that operate together:  psionic modes and psionic clashes.  To assist with this, I have provided a separate PDF that contains an info sheet displaying quickly how to resolve psionic clashes, as well as another sheet which contains images that can be cut out and used as cards to allow those in psionic combat to quickly and easily choose their modes.
+
+```
+```
 
 ### Psionic Modes
-Psionic modes represent training in a specific style of thought structure.  As two telepaths engage in a contest of will, their minds would simply merge together briefly without a psionic mode to support their individual thoughts.  Any motivations to enter into the contest in the first place would get lost in the confusion.  Psionic modes provide a mechanism for the individuals involved to retain some elements of their identity during the struggle.
-<p>Psions and adepts both gain psionic modes as part of leveling.  Additionally, they have a primary mechanism *psychic probe* to generate psionic clashes, although other methods may exist.</p>
-<p>Depending on the level of integration of psionics into your world, you have different approaches for integrating psionic modes and dealing with psionic clashes for non-psionic characters.  For example, in my world, which is based in the DarkSun setting where psionics are extremely prevalent, I have chosen to give all players two psionic modes to start with.  For non-psionic classes, they will start with two modes randomly (psions and adepts can choose their modes).  These characters are expected to frequently come into contact with psionic wielding enemies and should have some measure of defense against them.  However, non-psionic characters do not start with any abilities that allow them to generate psionic clashes, so their modes are for defense purposes only. If those non-psionic players wish to further engage with psionics, they must then either multi-class or pick up a feat which extends their psychic capabilities.</p>
-<p>Consider a different approach: imagine a world where psionics are extremely rare.  In such a case, I would not give non-psionic characters any modes at all.  This has ramifications for how the psionic clashes below are resolved, and you will need to choose a method there that you are comfortable with.</p>
-<p>There are seven psionic modes detailed below.</p>
+Psionic modes represent mental patterns that the mind naturally forms in reaction to the presence of an alien mind.  Psionic characters study these natural formations, and learn to exert a greater control over them.  Additionally, psionicists use these modes to perform telepathic attacks directly on the minds of others.
+<p>Psions and adepts both gain psionic modes as part of leveling.  It is recommended that, in a world where this form of psionics exist, even non-psionic characters are able to form at least 2 modes, but only for the purposes of defense.</p>
+<p>There are seven psionic modes:</p>
 
 #### Ego Projection
 Represented by the **plus** symbol, *ego projection* is an enhanced version of our ordinary sense of self and rationality, magnified to an extreme.  This can have the effect of avoiding the confusion that some modes create, but it falters against more subtle modes.
-
-```
-```
 
 #### Empty Mind
 Represented by the **circle** symbol, *empty mind* clears the mind of all activity.  This generally has the effect of pulling the ground out beneath some of the more aggressive modes, but it can be weak against other forms of disruptions.
@@ -435,29 +451,26 @@ Represented by the **three wavy lines** symbol, *synaptic static* is halfway bet
 \page
 
 ### Psionic Clashes
-A psionic clash is a contest between two opposing psionic characters; specifically it tends to occur when telepathy is involved. Every psionic spell that requires contact initiates a psionic clash if the caster has not already established contact against the target and if that target is unwilling.  If the target is willing to undergo the effects of a telepathic spell, contact is considered to exist for the purposes of that spell.
-<p>Whoever wins the psionic clash establishes contact with the target.  If, during the casting of a spell requiring contact, a psionic clash occurs and the spell caster does not win, the spell fails and the caster spends their action; however they do not pay the PSI cost for this attempted spell. Additionally, the *psionic probe* cantrip's primary purpose is to generate a psionic clash, although it does [not?] have an effect if contact has already been made.  Finally the psychokineticist's ability, *burst of will*, can be used to create a psionic clash.
-<p>During a psionic clash, each character's controller secretly selects one of their available psionic modes.  When the controllers are ready, the modes are revealed and resolved.  Optionally, to speed things up, any rolls that would need to be made as a result of success should be done at this time.</p>
-<p>To resolve the psionic clash, see the second pdf for a visual chart that easily shows who wins and who loses.  To briefly describe it, you can follow the below mechanism.  A given mode will beat the three modes to the right of it on the following list and lose to the three prior to it.  The end of the list wraps around to the front of the list to form a circular structure.  If a mode is pitted against itself no victory or loss takes place (and thus no contact is established).  Here is the resolution order:</p>
+A psionic clash is a contest between two opposing psionic characters using telepathic powers. Every telepathic spell used against an unwilling target initiates a psionic clash.  The psionic clash is used in place of the standard attack roll and/or spell save.  If the target is willing to undergo the effects of a telepathic spell no clash is necessary.
+<p>If the attacker wins the psionic clash, their mind has penetrated the psionic defenses of their opposition.  The effect of their spell takes place with no additional attack or saving throw required.
+<p>If the attacker does not win the psionic clash, they were unable to pierce through to their opponent's mind.  The PSI points and action are spent, and the spell does not take effect.</p>
+
+#### How to determine the clash winner
+Each character's controller secretly selects one psionic mode from the pool of their available psionic modes.  When both controllers are ready, their modes are revealed and resolved.</p>
+<p>The easiest way to resolve the psionic clash is by using the chart provided in the second pdf. If that chart is not available, here is a description of how the chart works:</p>
+<p>A given mode will beat the three modes to the right of it on the following list.  The end of the list wraps around to the front of the list to form a circular structure.  If a mode is pitted against itself, the attacker also does not win.  Here is the resolution order:</p>
   
    * *feedback loop* → *kinetic burst* → *synaptic static* → *empty mind* → *iron will* → *id insinuation* → *ego projection* →
   
 <p>For example, if during a clash the two modes revealed are *ego projection* and *synaptic static*, the character using *ego projection* would win.  If that player had instead picked *iron will*, then the player who used *synaptic static* would win the contest.</p>
-<p>Among the participants, whoever is the winner of the psionic clash establishes contact against the loser.</p>
-<p>Advantage and disadvantage:  This can easily be done for psionic clashes by having the advantaged party choosing two modes instead of one, then using whichever one is most advantageous.  In general, I probably try to avoid this happening too often in my games, as someone who smartly chooses their modes has a fairly large advantage at this point.</p>
-<p>Optional rule to speed things up for large groups (for example if a telepathic spell hits several targets):  Choose how many groups are affected.  It could be one group that includes everybody, or it could be several groups of similar creatures.  The point here is to avoid doing a clash for each individual creature.  Then, for each group chosen in the above method, have the caster choose one mode to attack with.</p>
+<p>Advantage and disadvantage:  This can easily be done for psionic clashes by having the advantaged party choosing two modes instead of one, then using whichever one is most advantageous.  Similarly a disadvantaged psionic combatant would play modes and use the more advantageous one.</p>
 
 ```
 ```
 
-### Contact
-Contact is a condition that represents the psychic influence of one individual over another.  In the language of contact, there are two parties involved.  The *contacter* is the individual who possesses influence over the other.  The *contactee* is the individual who is subject to that influence.  When the condition occurs, the contacter is said to *establish contact* against the contactee.  That contact may later be *spent* (i.e. the condition is removed by some ability the contacter has that allows them to do so).
-<p>Contact can be used to cause a moment of hesitation or distraction in the contactee.  At any time, the contacter may spend the contact to give the contacter advantage on any one attack roll, savings throw, or ability check where the contactee is involved.  Similarly, it may be spent to give the contactee disadvantage on any one attack roll, savings throw, or ability check where the contacter is involved.</p>
-<p>Most telepathic spells require contact.  If that character already has established contact with the target, then that contact is spent.  However, if the character does not have contact, they have the opportunity to enter into a psionic conflict.  If they win, the contact is spent on the spell.  If the caster does not win the conflict, the action is failed, but no PSI points are spent.  Telepathic spells that require contact and otherwise specify an attack roll, savings throw or ability check are instead automatically successful.</p>
-<p>The contact condition cannot be applied from the same contacter to the same contactee more than once simultaneously.  Contact has no requirement of PSI or concentration to maintain, but if the contacter is not within 60' of the contactee for more than a minute, the condition is removed.</p>
-
-### Mass Contact
-In the interest in time, when a telepathic spell affects multiple targets, there are a few alternate methods to assist.  The below assumes that all the entities have no special telepathic powers.  For entities which do posses enhanced telepathics, resolve the psionic combat as normal.  For example, if a group of 3 untrained thri-kreen and 1 thri-kreen adept were to come under group attack, resolve the psionic combat with the adept as normal, and use one of the below methods for the 3 untrained thri-kreen.
+### Mass Telepathy
+To stay on par with normal spell attacks, it is probably best to resolve each individual psionic clash, however, if that proves to be burdensome, there are a few options which may be utilized to speed things up.
+<p>When a telepathic spell affects multiple targets, there are a few alternate methods to assist.  The below assumes that all the entities have no special telepathic powers.  For entities which do posses enhanced telepathics (i.e. psion or adept levels), resolve the psionic combat as normal.  For example, if a group of 3 untrained thri-kreen and 1 thri-kreen adept were to come under group attack, resolve the psionic combat with the adept as normal, and use one of the below methods for the 3 untrained thri-kreen.
 
 #### Method One
 Choose one card at random from all seven possible modes.  This represents the collective unconscious of the group as its minds awaken and interfere with each other chaotically.
@@ -483,10 +496,8 @@ When trying to integrate the psion and adept into a world where psionics is not 
     
 Here is the rule:
 <div class='descriptive'>
-  When a non-psionic character enters into a psionic clash, their untrained mind naturally forms one of the seven psionic modes at random; that character's controller should pick a mode at random from the list of all available modes for every clash they enter into.  However, if the non-psionicist wins the psionic clash, they do not establish contact with the psionicist as normal because only those with some psionic skill are capable of doing so.
+  When a non-psionic character enters into a psionic clash, their untrained mind naturally forms two of the seven psionic modes at random; that character's controller should pick two modes at random from the list of all available modes for that character to choose from for the purposes of psionic clashes.
 </div>
-
-This rule does make psionic combat a little more difficult for the psionic participant.  This is because they can no longer look at past behavior of their opponent to predict their future behavior.  This is alleviated mostly by the fact that they never give contact to the non-psionicist.
 
 ### Spell-casting ability
 I chose charisma for my setting, but this could easily be wisdom as well.  In my setting Warlocks use intelligence, and there are no bards or paladins.  I felt like I needed another charisma based class to round things out.  Thematically, charisma does fit with the manipulative nature of telepathic spells.  On the other hand, "Willpower" as a savings throw is more closely related to wisdom and allows it to fit together more in line with the monk, who also uses wisdom.
@@ -544,23 +555,22 @@ This feat works for psionic spells as well, although obviously the second benefi
 <div class='spellList'>
   
 ##### Categories
-  - C - Clairsentient
-  - P - Psychokinetic
-  - T - Telepathic
-  - t - Telepathic, no contact required
+  - C - Clairsentience
+  - P - Psychokinesis
+  - T - Telepathy
+  - t - Telepathy, no clash required
   
 ##### Cantrips (0 Level)
  - C - Blade Ward
  - P - Booming Blade
  - P - Control Flames
- - P - Eldritch Blast
  - t - Friends
  - C - Guidance
  - P - Gust
+ - P - Kinetic Blast
  - P - Mage Hand
  - t - Message
  - P - Mold Earth
- - T - Psychic Probe
  - t/PC - Psychonistry
  - C - Resistance
  - P - Shillelagh
@@ -571,7 +581,6 @@ This feat works for psionic spells as well, although obviously the second benefi
 ##### 1st Level
  - C - Alarm
  - T - Animal Friendship
- - T - Bane
  - t - Beast Bond
  - P - Catapult
  - T - Cause Fear
@@ -579,19 +588,19 @@ This feat works for psionic spells as well, although obviously the second benefi
  - T - Command
  - T - Compelled Duel
  - C - Comprehend Languages
- - C - Detect Unnatural
  - C - Detect Magic
  - C - Detect Poison and Disease
  - C - Detect Psionics
+ - C - Detect Unnatural
  - T - Dissonant Whispers
  - P - Featherfall
  - P - Floating Disk
  - t - Heroism
+ - T - Hideous Laughter
  - C - Identify
  - P - Jump
  - P - Magic Missile
  - P - Shield
- - T - Tasha's Hideous Laughter
  - P - Thunderwave
 
 ##### 2nd Level 
@@ -607,11 +616,11 @@ This feat works for psionic spells as well, although obviously the second benefi
  - P - Gust of Wind
  - P - Heat Metal
  - P - Hold Person
- - P - Levitation
+ - P - Levitate
  - C - Locate Animal or Plants
  - C - Locate Object
+ - C - Magic Aura
  - T - Mind Spike
- - C - Nystul's Magic Aura
  - C - See Invisibility
  - P - Shatter
  - T - Suggestion
@@ -638,7 +647,7 @@ This feat works for psionic spells as well, although obviously the second benefi
  - P - Otiluke's Resilient Sphere
 
 ##### 5th Level
- - P - Bigby's Hand
+ - P - Arcane Hand
  - C - Contact Other Plane
  - P - Control Winds
  - P - Destructive Wave
@@ -648,10 +657,10 @@ This feat works for psionic spells as well, although obviously the second benefi
  - P - Hold Monster
  - C - Legend Lore
  - T - Modify Memory
- - t - Rary's Telepathic Bond
  - C - Scrying
  - T - Synaptic Static (Spell version from Xanathar's)
  - P - Telekenesis
+ - t - Telepathic Bond
  - P - Wall of Force
 
 ##### 6th Level
@@ -659,15 +668,15 @@ This feat works for psionic spells as well, although obviously the second benefi
  - P - Disintegrate
  - C - Find the Path
  - P - Globe of Invulnerability
+ - t - Irresistible Dance
  - T - Mass Suggestion
  - T - Mental Prison
- - t - Otto's Irresistible Dance
  - C - True Seeing
 
 ##### 7th Level
  - P - Forcecage
- - P - Mordenkainen's Sword
  - t - Power Word Pain
+ - P - Psionic Sword
  - P - Whirlwind
 
 ##### 8th Level
@@ -690,24 +699,42 @@ This feat works for psionic spells as well, although obviously the second benefi
 
 ## Spells
 
-#### Psychic Probe
-*Telepathic Cantrip*
-___
-- **Casting Time:** 1 action
-- **Range:** 30 feet
-- **Duration:** Instantaneous
-- **Requires:** Contact
+#### Kinetic Blast
 
-Enter into a psionic clash with a target you can see within range, unless you have already established contact with that target.  If you win the clash or have already established contact, you deal 1d6 psychic damage to your target.
+*Psychokinesis cantrip*
+___
+- **Casting Time**: 1 Action
+- **Range**: 120 feet
+- **Duration**: Instantaneous
+
+An invisible bolt of energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 force damage. The spell creates more than one bolt when you reach higher levels - two bolt at 5th level, three bolt at 11th level, and four bolt at 17th level. you can direct the bolt at the same target or at different ones. Make a separate attack roll for each beam.
 
 #### Psychonistry
+*General cantrip*
+___
+- **Casting Time**: 1 Action
+- **Range**: 10 feet
+- **Duration**: Up to an hour
+
 This spell can be used to generate minor psionic effects, similar in nature to *presdidigitation* or *thaumaturgy*.  The DM will adjudicate the exact effects possible, but some examples might be: poke someone, give an object a small push, open and rattle windows or curtains, cause a small effect in the mind of an individual such as a brief sensation, emotion, or thought that is obviously psionic in nature, getting a brief glimpse of a nearby hidden object, hearing a word or short phrase from across the room, glimpsing a minor characteristic of an event in the very near future, etc.
 
 #### Detect Psionics
-Equivalent to detect magic, but for psionics.
+*Clairsentience cantrip*
+___
+- **Casting Time**: 1 Action
+- **Range**: self
+- **Duration**: Concentration, up to 10 minutes
+
+For the duration, you sense the presence of psionics within 30 feet of you. If you sense psionics in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears psionics, and you learn its school of psionics, if any. The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.
 
 #### Counterpsionics
-Equivalent to counterspell, but for psionics.
+*Clairsentience Cantrip*
+___
+- **Casting Time**: 1 Reaction, which you take when you see a creature within 60 feet of you using psionics
+- **Range**: 60 feet
+- **Duration**: Instantaneous
+
+You attempt to interrupt a creature in the process of using psionics. If the creature is using psionics of 3 PSI lower, its spell fails and has no effect. If it is using psionics of 4 PSI or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's PSI level. On a success, the creature's spell fails and has no effect. At Higher Levels: When you cast this spell using a 4 PSI or higher, the interrupted spell has no effect if its PSI level is less than or equal to the level of PSI you used. 
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 6 | Psionic Spells</div>
