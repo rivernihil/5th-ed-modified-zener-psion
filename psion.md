@@ -555,19 +555,19 @@ This feat works for psionic spells as well, although obviously the second benefi
 <div class='spellList'>
   
 ##### Categories
-  - C - Clairsentient
-  - P - Psychokinetic
-  - T - Telepathic
-  - t - Telepathic, no clash required
+  - C - Clairsentience
+  - P - Psychokinesis
+  - T - Telepathy
+  - t - Telepathy, no clash required
   
 ##### Cantrips (0 Level)
  - C - Blade Ward
  - P - Booming Blade
  - P - Control Flames
- - P - Eldritch Blast
  - t - Friends
  - C - Guidance
  - P - Gust
+ - P - Kinetic Blast
  - P - Mage Hand
  - t - Message
  - P - Mold Earth
@@ -581,7 +581,6 @@ This feat works for psionic spells as well, although obviously the second benefi
 ##### 1st Level
  - C - Alarm
  - T - Animal Friendship
- - T - Bane
  - t - Beast Bond
  - P - Catapult
  - T - Cause Fear
@@ -589,19 +588,19 @@ This feat works for psionic spells as well, although obviously the second benefi
  - T - Command
  - T - Compelled Duel
  - C - Comprehend Languages
- - C - Detect Unnatural
  - C - Detect Magic
  - C - Detect Poison and Disease
  - C - Detect Psionics
+ - C - Detect Unnatural
  - T - Dissonant Whispers
  - P - Featherfall
  - P - Floating Disk
  - t - Heroism
+ - T - Hideous Laughter
  - C - Identify
  - P - Jump
  - P - Magic Missile
  - P - Shield
- - T - Tasha's Hideous Laughter
  - P - Thunderwave
 
 ##### 2nd Level 
@@ -617,11 +616,11 @@ This feat works for psionic spells as well, although obviously the second benefi
  - P - Gust of Wind
  - P - Heat Metal
  - P - Hold Person
- - P - Levitation
+ - P - Levitate
  - C - Locate Animal or Plants
  - C - Locate Object
+ - C - Magic Aura
  - T - Mind Spike
- - C - Nystul's Magic Aura
  - C - See Invisibility
  - P - Shatter
  - T - Suggestion
@@ -648,7 +647,7 @@ This feat works for psionic spells as well, although obviously the second benefi
  - P - Otiluke's Resilient Sphere
 
 ##### 5th Level
- - P - Bigby's Hand
+ - P - Arcane Hand
  - C - Contact Other Plane
  - P - Control Winds
  - P - Destructive Wave
@@ -658,10 +657,10 @@ This feat works for psionic spells as well, although obviously the second benefi
  - P - Hold Monster
  - C - Legend Lore
  - T - Modify Memory
- - t - Rary's Telepathic Bond
  - C - Scrying
  - T - Synaptic Static (Spell version from Xanathar's)
  - P - Telekenesis
+ - t - Telepathic Bond
  - P - Wall of Force
 
 ##### 6th Level
@@ -669,15 +668,15 @@ This feat works for psionic spells as well, although obviously the second benefi
  - P - Disintegrate
  - C - Find the Path
  - P - Globe of Invulnerability
+ - t - Irresistible Dance
  - T - Mass Suggestion
  - T - Mental Prison
- - t - Otto's Irresistible Dance
  - C - True Seeing
 
 ##### 7th Level
  - P - Forcecage
- - P - Mordenkainen's Sword
  - t - Power Word Pain
+ - P - Psionic Sword
  - P - Whirlwind
 
 ##### 8th Level
@@ -700,14 +699,42 @@ This feat works for psionic spells as well, although obviously the second benefi
 
 ## Spells
 
+#### Kinetic Blast
+
+*Psychokinesis cantrip*
+___
+- **Casting Time**: 1 Action
+- **Range**: 120 feet
+- **Duration**: Instantaneous
+
+An invisible bolt of energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 force damage. The spell creates more than one bolt when you reach higher levels - two bolt at 5th level, three bolt at 11th level, and four bolt at 17th level. you can direct the bolt at the same target or at different ones. Make a separate attack roll for each beam.
+
 #### Psychonistry
+*General cantrip*
+___
+- **Casting Time**: 1 Action
+- **Range**: 10 feet
+- **Duration**: Up to an hour
+
 This spell can be used to generate minor psionic effects, similar in nature to *presdidigitation* or *thaumaturgy*.  The DM will adjudicate the exact effects possible, but some examples might be: poke someone, give an object a small push, open and rattle windows or curtains, cause a small effect in the mind of an individual such as a brief sensation, emotion, or thought that is obviously psionic in nature, getting a brief glimpse of a nearby hidden object, hearing a word or short phrase from across the room, glimpsing a minor characteristic of an event in the very near future, etc.
 
 #### Detect Psionics
-Equivalent to detect magic, but for psionics.
+*Clairsentience cantrip*
+___
+- **Casting Time**: 1 Action
+- **Range**: self
+- **Duration**: Concentration, up to 10 minutes
+
+For the duration, you sense the presence of psionics within 30 feet of you. If you sense psionics in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears psionics, and you learn its school of psionics, if any. The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.
 
 #### Counterpsionics
-Equivalent to counterspell, but for psionics.
+*Clairsentience Cantrip*
+___
+- **Casting Time**: 1 Reaction, which you take when you see a creature within 60 feet of you using psionics
+- **Range**: 60 feet
+- **Duration**: Instantaneous
+
+You attempt to interrupt a creature in the process of using psionics. If the creature is using psionics of 3 PSI lower, its spell fails and has no effect. If it is using psionics of 4 PSI or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's PSI level. On a success, the creature's spell fails and has no effect. At Higher Levels: When you cast this spell using a 4 PSI or higher, the interrupted spell has no effect if its PSI level is less than or equal to the level of PSI you used. 
 
 <div class='pageNumber auto'></div>
 <div class='footnote'>Chapter 6 | Psionic Spells</div>
